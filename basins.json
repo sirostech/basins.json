@@ -605,7 +605,7 @@
                     "minimumTerrainHeight": -7494.9262695313,
                     "maximumTerrainHeight": 5591.4243164063,
                     "terrainExaggeration": 8.0,
-                    "terrainExaggerationRelativeHeight": -400000,
+                    "terrainExaggerationRelativeHeight": -100000,
                     "geologicalPropertyShortNames": [
                         "Structure",
                         "BRITTLE",
@@ -645,7 +645,7 @@
                     "minimumTerrainHeight": -7828.29296875,
                     "maximumTerrainHeight": 5239.1499023438,
                     "terrainExaggeration": 8.0,
-                    "terrainExaggerationRelativeHeight": -100000,
+                    "terrainExaggerationRelativeHeight": -200000,
                     "geologicalPropertyShortNames": ["Structure"]
                 },
                 {
@@ -672,7 +672,7 @@
                     "minimumTerrainHeight": -9003.3515625,
                     "maximumTerrainHeight": 4213.6557617188,
                     "terrainExaggeration": 8.0,
-                    "terrainExaggerationRelativeHeight": -200000,
+                    "terrainExaggerationRelativeHeight": -300000,
                     "geologicalPropertyShortNames": [
                         "Structure",
                         "BRITTLE",
@@ -712,7 +712,7 @@
                     "minimumTerrainHeight": -9184.984375,
                     "maximumTerrainHeight": 3789.8957519531,
                     "terrainExaggeration": 8.0,
-                    "terrainExaggerationRelativeHeight": -300000,
+                    "terrainExaggerationRelativeHeight": -400000,
                     "geologicalPropertyShortNames": ["Structure"]
                 }
                 
