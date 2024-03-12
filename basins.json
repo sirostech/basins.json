@@ -1,0 +1,3233 @@
+{
+    "preloadAllBasins": true,
+    "basins": [
+        {
+            "longName": "Williston Basin",
+            "shortName": "Williston",
+            "abbreviation": "WB",
+            "providerShortName": "TP",
+            "view": {
+                "longitude": -103.93003062191270658,
+                "latitude": 44.755880488037021792,
+                "height": 154122.0130872344,
+                "heading": 360,
+                "pitch": -26.840750793356075832,
+                "roll": 0
+            },
+            "terrainExaggerationRelativeHeightSpacingMinimum": 10000,
+            "terrainExaggerationRelativeHeightSpacingMaximum": 200000,
+            "economicFormationParameters": {
+                "lateralLength": 10000.0,
+                "reserveMultiplier": 0.75,
+                "capEx": 7500.0,
+                "numAFEs": 2,
+                "numPermits": 1
+            },
+            "formations": [
+                {
+                    "name": "Upper Bakken",
+                    "shortName": "UB",
+                    "pointCloudUrl": "pointcloud/Williston/ub",
+                    "rockTextureUrl": "SubsurfaceTextures:Williston_rock_texture_0.000581",
+                    "view": {
+                        "longitude": -104.11960544952805,
+                        "latitude": 44.21167804207529,
+                        "height": -26686.76010012369,
+                        "heading": 359.97659359267783,
+                        "pitch": -0.18575213058648657,
+                        "roll": 0.023975188480094237
+                    },
+                    "subsurfaceTerrainUrl": "subsurface/Williston/ub/",
+                    "rectangle": {
+                        "west": -106.075226,
+                        "south": 46.624667,
+                        "east": -101.764226,
+                        "north": 49.004867
+                    },
+                    "minimumTerrainHeight": -8900.0,
+                    "maximumTerrainHeight": -3900.0,
+                    "terrainExaggeration": 8.0,
+                    "terrainExaggerationRelativeHeight": -100000,
+                    "geologicalPropertyShortNames": ["Structure", "Iso", "OIP", "Porosity", "Sw"]
+                },
+                {
+                    "name": "Middle Bakken",
+                    "shortName": "MB",
+                    "isEconomic": true,
+                    "economicName": "Bakken",
+                    "economicShortName": "B",
+                    "pointCloudUrl": "pointcloud/Williston/mb",
+                    "rockTextureUrl": "SubsurfaceTextures:Williston_rock_texture_old_0.000581",
+                    "view": {
+                        "longitude": -104.0855535301464414,
+                        "latitude": 44.404410836050566047,
+                        "height": -150000,
+                        "heading": 0,
+                        "pitch": 0,
+                        "roll": 0
+                    },
+                    "subsurfaceTerrainUrl": "subsurface/Williston/mb/",
+                    "rectangle": {
+                        "west": -106.084771,
+                        "south": 46.767605,
+                        "east": -101.731171,
+                        "north": 49.076405
+                    },
+                    "minimumTerrainHeight": -8900,
+                    "maximumTerrainHeight": -3900,
+                    "terrainExaggeration": 8.0,
+                    "terrainExaggerationRelativeHeight": -200000,
+                    "geologicalPropertyShortNames": [
+                        "Structure",
+                        "12MoGasCum",
+                        "12MoOilCum",
+                        "12MoOilCum_23",
+                        "6MoGasCum",
+                        "6MoOilCum",
+                        "6MoOilCum_23",
+                        "EUR_MBO",
+                        "EUR",
+                        "EUR_23",
+                        "GOR",
+                        "Iso",
+                        "MBOE",
+                        "MBOE_23",
+                        "OIP",
+                        "Porosity",
+                        "PG",
+                        "SPHM",
+                        "Wc",
+                        "WOR",
+                        "Sw"
+                    ]
+                },
+                {
+                    "name": "Lower Bakken",
+                    "shortName": "LB",
+                    "pointCloudUrl": "pointcloud/Williston/lb",
+                    "rockTextureUrl": "SubsurfaceTextures:Williston_rock_texture_old_0.000581",
+                    "view": {
+                        "longitude": -104.0855535301464414,
+                        "latitude": 44.404410836050566047,
+                        "height": -250000,
+                        "heading": 0,
+                        "pitch": 0,
+                        "roll": 0
+                    },
+                    "subsurfaceTerrainUrl": "subsurface/Williston/lb/",
+                    "rectangle": {
+                        "west": -106.052582,
+                        "south": 46.912715,
+                        "east": -101.751182,
+                        "north": 49.022915
+                    },
+                    "minimumTerrainHeight": -9000,
+                    "maximumTerrainHeight": -4000,
+                    "terrainExaggeration": 8.0,
+                    "terrainExaggerationRelativeHeight": -300000,
+                    "geologicalPropertyShortNames": ["Structure", "Iso", "OIP", "Porosity", "Sw"]
+                },
+                {
+                    "name": "Pronghorn",
+                    "shortName": "PH",
+                    "pointCloudUrl": "pointcloud/Williston/ph",
+                    "rockTextureUrl": "SubsurfaceTextures:Williston_rock_texture_old_0.000581",
+                    "view": {
+                        "longitude": -104.0855535301464414,
+                        "latitude": 44.404410836050566047,
+                        "height": -350000,
+                        "heading": 0,
+                        "pitch": 0,
+                        "roll": 0
+                    },
+                    "subsurfaceTerrainUrl": "subsurface/Williston/ph/",
+                    "rectangle": {
+                        "west": -105.159892,
+                        "south": 46.700581,
+                        "east": -102.025492,
+                        "north": 49.002181
+                    },
+                    "minimumTerrainHeight": -9000,
+                    "maximumTerrainHeight": -4800,
+                    "terrainExaggeration": 8.0,
+                    "terrainExaggerationRelativeHeight": -400000,
+                    "geologicalPropertyShortNames": ["Structure", "Iso", "Porosity"]
+                },
+                {
+                    "name": "Three Forks Bench One",
+                    "shortName": "TF1",
+                    "isEconomic": true,
+                    "economicName": "Three Forks",
+                    "economicShortName": "TF1",
+                    "pointCloudUrl": "pointcloud/Williston/tf1",
+                    "rockTextureUrl": "SubsurfaceTextures:Williston_rock_texture_old_0.000581",
+                    "view": {
+                        "longitude": -104.0855535301464414,
+                        "latitude": 44.404410836050566047,
+                        "height": -450000,
+                        "heading": 0,
+                        "pitch": 0,
+                        "roll": 0
+                    },
+                    "subsurfaceTerrainUrl": "subsurface/Williston/tf1/",
+                    "rectangle": {
+                        "west": -104.972808,
+                        "south": 46.585947,
+                        "east": -101.790408,
+                        "north": 49.038747
+                    },
+                    "minimumTerrainHeight": -9100,
+                    "maximumTerrainHeight": -4200,
+                    "terrainExaggeration": 8.0,
+                    "terrainExaggerationRelativeHeight": -500000,
+                    "geologicalPropertyShortNames": [
+                        "Structure",
+                        "12MoGasCum",
+                        "12MoOilCum",
+                        "12MoOilCum_23",
+                        "6MoGasCum",
+                        "6MoOilCum",
+                        "6MoOilCum_23",
+                        "EUR_MBO",
+                        "EUR",
+                        "EUR_23",
+                        "GOR",
+                        "Iso",
+                        "MBOE",
+                        "MBOE_23",
+                        "OIP",
+                        "Porosity",
+                        "Sw",
+                        "Wc",
+                        "WOR"
+                    ]
+                },
+                {
+                    "name": "Three Forks Bench Two",
+                    "shortName": "TF2",
+                    "isEconomic": true,
+                    "economicName": "Three Forks",
+                    "economicShortName": "TF2",
+                    "pointCloudUrl": "pointcloud/Williston/tf2",
+                    "rockTextureUrl": "SubsurfaceTextures:Williston_rock_texture_old_0.000581",
+                    "view": {
+                        "longitude": -104.0855535301464414,
+                        "latitude": 44.404410836050566047,
+                        "height": -550000,
+                        "heading": 0,
+                        "pitch": 0,
+                        "roll": 0
+                    },
+                    "subsurfaceTerrainUrl": "subsurface/Williston/tf2/",
+                    "rectangle": {
+                        "west": -105.141624,
+                        "south": 46.614072,
+                        "east": -101.834424,
+                        "north": 49.012872
+                    },
+                    "minimumTerrainHeight": -9100,
+                    "maximumTerrainHeight": -4200,
+                    "terrainExaggeration": 8.0,
+                    "terrainExaggerationRelativeHeight": -600000,
+                    "geologicalPropertyShortNames": [
+                        "Structure",
+                        "12MoGasCum",
+                        "12MoOilCum",
+                        "12MoOilCum_23",
+                        "6MoGasCum",
+                        "6MoOilCum",
+                        "6MoOilCum_23",
+                        "EUR_MBO",
+                        "EUR",
+                        "EUR_23",
+                        "GOR",
+                        "Porosity",
+                        "Iso",
+                        "MBOE",
+                        "MBOE_23",
+                        "OIP",
+                        "Sw",
+                        "Wc",
+                        "WOR"
+                    ]
+                },
+                {
+                    "name": "Three Forks Bench Three",
+                    "shortName": "TF3",
+                    "pointCloudUrl": "",
+                    "rockTextureUrl": "SubsurfaceTextures:Williston_rock_texture_old_0.000581",
+                    "view": {
+                        "longitude": -103.94707057722385,
+                        "latitude": 44.708346680990466,
+                        "height": -614941.9063194206,
+                        "heading": 358.061437901215,
+                        "pitch": -10.629764386780089,
+                        "roll": 0.33883122335611937
+                    },
+                    "subsurfaceTerrainUrl": "subsurface/Williston/tf3/",
+                    "rectangle": {
+                        "west": -106.049184,
+                        "south": 46.614072,
+                        "east": -101.798184,
+                        "north": 49.014043
+                    },
+                    "minimumTerrainHeight": -9100,
+                    "maximumTerrainHeight": -4100,
+                    "terrainExaggeration": 5.0,
+                    "terrainExaggerationRelativeHeight": -700000,
+                    "geologicalPropertyShortNames": [
+                        "Structure",
+                        "12MoOilCum",
+                        "6MoOilCum",
+                        "Iso",
+                        "OIP",
+                        "Porosity",
+                        "Sw"
+                    ]
+                },
+                {
+                    "name": "Nisku",
+                    "shortName": "NSK",
+                    "pointCloudUrl": "",
+                    "rockTextureUrl": "SubsurfaceTextures:Williston_rock_texture_old_0.000581",
+                    "view": {
+                        "longitude": -104.54157747479613,
+                        "latitude": 44.092134069568246,
+                        "height": -626786.6437793969,
+                        "heading": 0,
+                        "pitch": -20.41990873831518,
+                        "roll": 0
+                    },
+                    "subsurfaceTerrainUrl": "subsurface/Williston/nsk/",
+                    "rectangle": {
+                        "west": -106.029493,
+                        "south": 46.580229,
+                        "east": -101.818693,
+                        "north": 49.003629
+                    },
+                    "minimumTerrainHeight": -9200,
+                    "maximumTerrainHeight": -4100,
+                    "terrainExaggeration": 5.0,
+                    "terrainExaggerationRelativeHeight": -800000,
+                    "geologicalPropertyShortNames": ["Structure"]
+                }
+            ]
+        },
+        {
+            "longName": "Bakken Basin",
+            "shortName": "Bakken",
+            "abbreviation": "BaB",
+            "providerShortName": "IRAD",
+            "view": {
+                "longitude": -103.93003062191270658,
+                "latitude": 44.755880488037021792,
+                "height": 154122.0130872344,
+                "heading": 360,
+                "pitch": -26.840750793356075832,
+                "roll": 0
+            },
+            "terrainExaggerationRelativeHeightSpacingMinimum": 10000,
+            "terrainExaggerationRelativeHeightSpacingMaximum": 200000,
+            "economicFormationParameters": {
+                "lateralLength": 10000.0,
+                "reserveMultiplier": 0.75,
+                "capEx": 7500.0,
+                "numAFEs": 2,
+                "numPermits": 1
+            },
+            "formations": [
+                {
+                    "name": "Upper Bakken",
+                    "shortName": "UB",
+                    "pointCloudUrl": "",
+                    "rockTextureUrl": "SubsurfaceTextures:IRAD-Bakken",
+                    "view": {
+                        "longitude": -104.46839404436702,
+                        "latitude": 43.98787395393802,
+                        "height": -2402.4364326799396,
+                        "heading": 359.2741317957782,
+                        "pitch": -3.304121328492492,
+                        "roll": 1.53688837238918
+                    },
+                    "subsurfaceTerrainUrl": "subsurface/IRAD-Bakken/ub/",
+                    "rectangle": {
+                        "west": -106.708205618,
+                        "south": 46.474605807,
+                        "east": -101.199005618,
+                        "north": 49.156605807
+                    },
+                    "minimumTerrainHeight": -9006.2236328125,
+                    "maximumTerrainHeight": -3173.1181640625,
+                    "terrainExaggeration": 8.0,
+                    "terrainExaggerationRelativeHeight": -100000,
+                    "geologicalPropertyShortNames": [
+                        "Structure",
+                        "BRITTLE",
+                        "BVI",
+                        "COMPETENCY",
+                        "HCPV",
+                        "Iso",
+                        "NUPERM_A",
+                        "NUPERM_H",
+                        "PERMSH_A",
+                        "PERMSH_H",
+                        "PHIA",
+                        "PHIH",
+                        "STOIIP",
+                        "Sw",
+                        "TOC",
+                        "Vclay"
+                    ]
+                },
+                {
+                    "name": "Middle Bakken",
+                    "shortName": "MB",
+                    "isEconomic": true,
+                    "economicName": "Bakken",
+                    "economicShortName": "B",
+                    "pointCloudUrl": "",
+                    "rockTextureUrl": "SubsurfaceTextures:IRAD-Bakken",
+                    "view": {
+                        "longitude": -104.23835287207564,
+                        "latitude": 43.88841474964518,
+                        "height": -101776.40370492672,
+                        "heading": 358.0841678868259,
+                        "pitch": -5.767158284873155,
+                        "roll": 1.379734162093669
+                    },
+                    "subsurfaceTerrainUrl": "subsurface/IRAD-Bakken/mb/",
+                    "rectangle": {
+                        "west": -106.708205618,
+                        "south": 46.474605807,
+                        "east": -101.199005618,
+                        "north": 49.156605807
+                    },
+                    "minimumTerrainHeight": -9023.29296875,
+                    "maximumTerrainHeight": -3174.5966796875,
+                    "terrainExaggeration": 8.0,
+                    "terrainExaggerationRelativeHeight": -200000,
+                    "geologicalPropertyShortNames": [
+                        "Structure",
+                        "BRITTLE",
+                        "BVI",
+                        "COMPETENCY",
+                        "HCVP_SEC",
+                        "Iso",
+                        "NUPERM_A",
+                        "NUPERM_H",
+                        "PHIA",
+                        "PHIH",
+                        "STOIIP",
+                        "Sw",
+                        "TOC",
+                        "Vclay"
+                    ]
+                },
+                {
+                    "name": "Lower Bakken",
+                    "shortName": "LB",
+                    "pointCloudUrl": "",
+                    "rockTextureUrl": "SubsurfaceTextures:IRAD-Bakken",
+                    "view": {
+                        "longitude": -104.42049539787844,
+                        "latitude": 43.92456320318515,
+                        "height": -202374.9972491726,
+                        "heading": 0.06997124735485,
+                        "pitch": -5.468346314262685,
+                        "roll": 1.2830911183876292
+                    },
+                    "subsurfaceTerrainUrl": "subsurface/IRAD-Bakken/lb/",
+                    "rectangle": {
+                        "west": -106.708205618,
+                        "south": 46.474605807,
+                        "east": -101.199005618,
+                        "north": 49.156605807
+                    },
+                    "minimumTerrainHeight": -9066.9560546875,
+                    "maximumTerrainHeight": -3188.4516601563,
+                    "terrainExaggeration": 8.0,
+                    "terrainExaggerationRelativeHeight": -300000,
+                    "geologicalPropertyShortNames": [
+                        "Structure",
+                        "BRITTLE",
+                        "BVI",
+                        "COMPETENCY",
+                        "HCPV",
+                        "Iso",
+                        "NUPERM_A",
+                        "Perm",
+                        "PERMSH_A",
+                        "PERMSH_H",
+                        "PHIA",
+                        "PHIH",
+                        "STOIIP",
+                        "Sw",
+                        "TOC",
+                        "Vclay"
+                    ]
+                },
+                {
+                    "name": "Three Forks",
+                    "shortName": "TF1",
+                    "isEconomic": true,
+                    "economicName": "Three Forks",
+                    "economicShortName": "TF1",
+                    "pointCloudUrl": "",
+                    "rockTextureUrl": "SubsurfaceTextures:IRAD-Bakken",
+                    "view": {
+                        "longitude": -104.48413498000153,
+                        "latitude": 43.4088731215858,
+                        "height": -347161.79645832366,
+                        "heading": 359.45242200491043,
+                        "pitch": -18.58439646911724,
+                        "roll": 1.408878285364867
+                    },
+                    "subsurfaceTerrainUrl": "subsurface/IRAD-Bakken/tf/",
+                    "rectangle": {
+                        "west": -106.708205618,
+                        "south": 46.474605807,
+                        "east": -101.199005618,
+                        "north": 49.156605807
+                    },
+                    "minimumTerrainHeight": -9102.390625,
+                    "maximumTerrainHeight": -3190.4333496094,
+                    "terrainExaggeration": 8.0,
+                    "terrainExaggerationRelativeHeight": -500000,
+                    "geologicalPropertyShortNames": [
+                        "Structure",
+                        "BRITTLE",
+                        "BVI",
+                        "COMPETENCY",
+                        "HCPV_SEC",
+                        "Iso",
+                        "NUPERM_A",
+                        "NUPERM_H",
+                        "PERMSH_A",
+                        "PERMSH_H",
+                        "PHIA",
+                        "PHIH",
+                        "STOIIP",
+                        "Sw",
+                        "TOC",
+                        "Vclay"
+                    ]
+                },
+                {
+                    "name": "Lower Three Forks",
+                    "shortName": "TF2",
+                    "isEconomic": true,
+                    "economicName": "Three Forks",
+                    "economicShortName": "TF2",
+                    "pointCloudUrl": "",
+                    "rockTextureUrl": "SubsurfaceTextures:IRAD-Bakken",
+                    "view": {
+                        "longitude": -104.4364107822704,
+                        "latitude": 43.19887737006011,
+                        "height": -457501.465675881,
+                        "heading": 359.791206900978,
+                        "pitch": -16.639017909917943,
+                        "roll": 0.5868297997994499
+                    },
+                    "subsurfaceTerrainUrl": "subsurface/IRAD-Bakken/ltf/",
+                    "rectangle": {
+                        "west": -106.708205618,
+                        "south": 46.474605807,
+                        "east": -101.199005618,
+                        "north": 49.156605807
+                    },
+                    "minimumTerrainHeight": -9173.533203125,
+                    "maximumTerrainHeight": -3207.1789550781,
+                    "terrainExaggeration": 8.0,
+                    "terrainExaggerationRelativeHeight": -600000,
+                    "geologicalPropertyShortNames": [
+                        "Structure",
+                        "BRITTLE",
+                        "BVI",
+                        "COMPETENCY",
+                        "HCVP_SEC",
+                        "Iso",
+                        "NUPERM_A",
+                        "NUPERM_H",
+                        "PHIA",
+                        "PHIH",
+                        "STOIIP",
+                        "Sw",
+                        "TOC",
+                        "Vclay"
+                    ]
+                }
+            ]
+        },
+        {
+            "longName": "Powder River Basin",
+            "shortName": "Powder River",
+            "abbreviation": "PRB",
+            "providerShortName": "IRAD",
+            "view": {
+                "longitude": -105.8714624185013,
+                "latitude": 42.33217905645963,
+                "height": 88866.30040337775,
+                "heading": 1.5719877645265679,
+                "pitch": -34.56810624635974,
+                "roll": 359.9997044587988
+            },
+            "terrainExaggerationRelativeHeightSpacingMinimum": 10000,
+            "terrainExaggerationRelativeHeightSpacingMaximum": 200000,
+            "economicFormationParameters": {
+                "lateralLength": 10000.0,
+                "reserveMultiplier": 0.75,
+                "capEx": 7500.0,
+                "numAFEs": 2,
+                "numPermits": 1
+            },
+            "formations": [
+                {
+                    "name": "Carlile",
+                    "shortName": "CRLL",
+                    "pointCloudUrl": "",
+                    "rockTextureUrl": "SubsurfaceTextures:IRAD-PRB",
+                    "view": {
+                        "longitude": -105.84163503537533,
+                        "latitude": 41.29814898294967,
+                        "height": -60898.312239394676,
+                        "heading": 359.6987259745204,
+                        "pitch": -0.8231500981569554,
+                        "roll": 1.0881505931815356
+                    },
+                    "subsurfaceTerrainUrl": "subsurface/IRAD-Powder-River/crll/",
+                    "rectangle": {
+                        "west": -106.989975486,
+                        "south": 42.7328550323,
+                        "east": -104.690775486,
+                        "north": 45.0236550323
+                    },
+                    "minimumTerrainHeight": -7828.29296875,
+                    "maximumTerrainHeight": 5239.1499023438,
+                    "terrainExaggeration": 8.0,
+                    "terrainExaggerationRelativeHeight": -100000,
+                    "geologicalPropertyShortNames": ["Structure"]
+                },
+                {
+                    "name": "Mowry",
+                    "shortName": "MWRY",
+                    "isEconomic": true,
+                    "pointCloudUrl": "",
+                    "rockTextureUrl": "SubsurfaceTextures:IRAD-PRB",
+                    "view": {
+                        "longitude": -105.9147871515724,
+                        "latitude": 41.38944184942271,
+                        "height": -168535.0064388313,
+                        "heading": 1.6858479818119256,
+                        "pitch": -0.6405719405145774,
+                        "roll": 0.27075318269969556
+                    },
+                    "subsurfaceTerrainUrl": "subsurface/IRAD-Powder-River/mwry/",
+                    "rectangle": {
+                        "west": -106.989975486,
+                        "south": 42.7724550323,
+                        "east": -104.690775486,
+                        "north": 45.0236550323
+                    },
+                    "minimumTerrainHeight": -9003.3515625,
+                    "maximumTerrainHeight": 4213.6557617188,
+                    "terrainExaggeration": 8.0,
+                    "terrainExaggerationRelativeHeight": -200000,
+                    "geologicalPropertyShortNames": [
+                        "Structure",
+                        "BRITTLE",
+                        "COMPETENCY",
+                        "HCPV",
+                        "NETSHALE",
+                        "PERMSH_A",
+                        "PERMSH_H",
+                        "PHIA",
+                        "PHIH",
+                        "STOIIP_SEC",
+                        "Sw",
+                        "TOC",
+                        "Vclay"
+                    ]
+                },
+                {
+                    "name": "Muddy",
+                    "shortName": "MDDY",
+                    "pointCloudUrl": "",
+                    "rockTextureUrl": "SubsurfaceTextures:IRAD-PRB",
+                    "view": {
+                        "longitude": -105.94487906469816,
+                        "latitude": 41.23392086580336,
+                        "height": -255579.92038981174,
+                        "heading": 0.8887536267878665,
+                        "pitch": -2.444514185240619,
+                        "roll": 0.5086622734757154
+                    },
+                    "subsurfaceTerrainUrl": "subsurface/IRAD-Powder-River/mddy/",
+                    "rectangle": {
+                        "west": -106.989975486,
+                        "south": 42.7724550323,
+                        "east": -104.690775486,
+                        "north": 45.0236550323
+                    },
+                    "minimumTerrainHeight": -9184.984375,
+                    "maximumTerrainHeight": 3789.8957519531,
+                    "terrainExaggeration": 8.0,
+                    "terrainExaggerationRelativeHeight": -300000,
+                    "geologicalPropertyShortNames": ["Structure"]
+                },
+                {
+                    "name": "Niobrara",
+                    "shortName": "NBRR",
+                    "isEconomic": true,
+                    "pointCloudUrl": "",
+                    "rockTextureUrl": "SubsurfaceTextures:IRAD-PRB",
+                    "view": {
+                        "longitude": -105.79553778464448,
+                        "latitude": 41.4134015135654,
+                        "height": -353081.75274898246,
+                        "heading": 359.91747698708747,
+                        "pitch": -5.087864796297032,
+                        "roll": 0.5388827812936635
+                    },
+                    "subsurfaceTerrainUrl": "subsurface/IRAD-Powder-River/nbrr/",
+                    "rectangle": {
+                        "west": -106.98995389,
+                        "south": 42.7724591663,
+                        "east": -104.68955389,
+                        "north": 45.0224591663
+                    },
+                    "minimumTerrainHeight": -7494.9262695313,
+                    "maximumTerrainHeight": 5591.4243164063,
+                    "terrainExaggeration": 8.0,
+                    "terrainExaggerationRelativeHeight": -400000,
+                    "geologicalPropertyShortNames": [
+                        "Structure",
+                        "BRITTLE",
+                        "COMPETENCY",
+                        "HCPV",
+                        "NETSHALE",
+                        "PERMSH_A",
+                        "PERMSH_H",
+                        "PHIA",
+                        "PHIH",
+                        "STOIIP_SEC",
+                        "Sw",
+                        "TOC",
+                        "Vclay"
+                    ]
+                }
+            ]
+        },
+        {
+            "longName": "Denver-Julesburg Basin",
+            "shortName": "Denver",
+            "abbreviation": "DJB",
+            "providerShortName": "TP",
+            "view": {
+                "longitude": -104.0866534305599,
+                "latitude": 37.98561778899236,
+                "height": 230121.07105657403,
+                "heading": 7.219647521323764,
+                "pitch": -45.116639467322166,
+                "roll": 359.9996966919324
+            },
+            "terrainExaggerationRelativeHeightSpacingMinimum": 10000,
+            "terrainExaggerationRelativeHeightSpacingMaximum": 200000,
+            "economicFormationParameters": {
+                "lateralLength": 10000.0,
+                "reserveMultiplier": 0.75,
+                "capEx": 6500.0,
+                "numAFEs": 1,
+                "numPermits": 0
+            },
+            "formations": [
+                {
+                    "name": "Sharon Springs",
+                    "shortName": "SSPG",
+                    "pointCloudUrl": "",
+                    "rockTextureUrl": "SubsurfaceTextures:Denver_DJ_rock_texture_0.00028",
+                    "view": {
+                        "longitude": -104.55576189129287,
+                        "latitude": 38.462728709610346,
+                        "height": -23862.05071472061,
+                        "heading": 354.9771216355468,
+                        "pitch": -18.173466816506124,
+                        "roll": 0.2598642792827822
+                    },
+                    "subsurfaceTerrainUrl": "subsurface/Denver_DJ/sspg/",
+                    "rectangle": {
+                        "west": -105.277537,
+                        "south": 39.719271,
+                        "east": -103.680937,
+                        "north": 40.995471
+                    },
+                    "minimumTerrainHeight": -2700,
+                    "maximumTerrainHeight": 3900,
+                    "terrainExaggeration": 5.0,
+                    "terrainExaggerationRelativeHeight": -100000,
+                    "geologicalPropertyShortNames": ["Structure", "Iso", "Porosity", "Sw"]
+                },
+                {
+                    "name": "Niobrara A",
+                    "shortName": "NBRRA",
+                    "pointCloudUrl": "",
+                    "rockTextureUrl": "SubsurfaceTextures:Denver_DJ_rock_texture_0.00028",
+                    "view": {
+                        "longitude": -104.49030513138563,
+                        "latitude": 38.34328067535033,
+                        "height": -116904.86605065927,
+                        "heading": 353.9466943536491,
+                        "pitch": -19.619998427514542,
+                        "roll": 0.4729887054139297
+                    },
+                    "subsurfaceTerrainUrl": "subsurface/Denver_DJ/nbrra/",
+                    "rectangle": {
+                        "west": -105.281742,
+                        "south": 39.711629,
+                        "east": -103.679742,
+                        "north": 40.998629
+                    },
+                    "minimumTerrainHeight": -2700,
+                    "maximumTerrainHeight": 3000,
+                    "terrainExaggeration": 5.0,
+                    "terrainExaggerationRelativeHeight": -200000,
+                    "geologicalPropertyShortNames": [
+                        "Structure",
+                        "GGC",
+                        "GHF",
+                        "Iso",
+                        "NETPAY",
+                        "OIP",
+                        "Porosity",
+                        "ResDGT20",
+                        "TmaxDegC",
+                        "Sw"
+                    ]
+                },
+                {
+                    "name": "Niobrara B",
+                    "shortName": "NBRRB",
+                    "isEconomic": true,
+                    "pointCloudUrl": "",
+                    "rockTextureUrl": "SubsurfaceTextures:Denver_DJ_rock_texture_0.00028",
+                    "view": {
+                        "longitude": -104.55576241571525,
+                        "latitude": 38.462731692178146,
+                        "height": -223862.65242130306,
+                        "heading": 354.9771230854096,
+                        "pitch": -18.173474665656546,
+                        "roll": 0.25986387489917223
+                    },
+                    "subsurfaceTerrainUrl": "subsurface/Denver_DJ/nbrrb/",
+                    "rectangle": {
+                        "west": -105.279525,
+                        "south": 39.718962,
+                        "east": -103.681125,
+                        "north": 40.995162
+                    },
+                    "minimumTerrainHeight": -2800,
+                    "maximumTerrainHeight": 3500,
+                    "terrainExaggeration": 5.0,
+                    "terrainExaggerationRelativeHeight": -300000,
+                    "geologicalPropertyShortNames": [
+                        "Structure",
+                        "6MoGasCum",
+                        "12MoGasCum",
+                        "6MoOilCum",
+                        "12MoOilCum",
+                        "EUR",
+                        "GOR",
+                        "Iso",
+                        "MBOE",
+                        "NETPAY",
+                        "OIP",
+                        "Porosity",
+                        "ResDGT20",
+                        "Ro",
+                        "Sw",
+                        "Wc",
+                        "WOR"
+                    ]
+                },
+                {
+                    "name": "Niobrara C",
+                    "shortName": "NBRRC",
+                    "pointCloudUrl": "",
+                    "rockTextureUrl": "SubsurfaceTextures:Denver_DJ_rock_texture_0.00028",
+                    "view": {
+                        "longitude": -104.55576189129282,
+                        "latitude": 38.46272870961017,
+                        "height": -323862.05070851644,
+                        "heading": 354.977121635547,
+                        "pitch": -18.173466816506174,
+                        "roll": 0.2598642792827313
+                    },
+                    "subsurfaceTerrainUrl": "subsurface/Denver_DJ/nbrrc/",
+                    "rectangle": {
+                        "west": -105.277551,
+                        "south": 39.717692,
+                        "east": -103.677351,
+                        "north": 40.995692
+                    },
+                    "minimumTerrainHeight": -2900,
+                    "maximumTerrainHeight": 4000,
+                    "terrainExaggeration": 5.0,
+                    "terrainExaggerationRelativeHeight": -400000,
+                    "geologicalPropertyShortNames": ["Structure", "Iso", "NETPAY", "OIP", "Porosity", "ResDGT20", "Sw"]
+                },
+                {
+                    "name": "Niobrara D",
+                    "shortName": "NBRRD",
+                    "pointCloudUrl": "",
+                    "rockTextureUrl": "SubsurfaceTextures:Denver_DJ_rock_texture_0.00028",
+                    "view": {
+                        "longitude": -104.55576189129283,
+                        "latitude": 38.46272870961035,
+                        "height": -423862.05071471195,
+                        "heading": 354.9771216355469,
+                        "pitch": -18.17346681650615,
+                        "roll": 0.2598642792827313
+                    },
+                    "subsurfaceTerrainUrl": "subsurface/Denver_DJ/nbrrd/",
+                    "rectangle": {
+                        "west": -105.277546,
+                        "south": 39.723844,
+                        "east": -103.680346,
+                        "north": 40.995844
+                    },
+                    "minimumTerrainHeight": -2900,
+                    "maximumTerrainHeight": 5200,
+                    "terrainExaggeration": 5.0,
+                    "terrainExaggerationRelativeHeight": -500000,
+                    "geologicalPropertyShortNames": ["Structure", "Iso", "Porosity", "Sw"]
+                },
+                {
+                    "name": "Codell",
+                    "shortName": "CDLL",
+                    "isEconomic": true,
+                    "pointCloudUrl": "",
+                    "rockTextureUrl": "SubsurfaceTextures:Denver_DJ_rock_texture_0.00028",
+                    "view": {
+                        "longitude": -104.55576189129289,
+                        "latitude": 38.462728709610346,
+                        "height": -523862.05071471113,
+                        "heading": 354.9771216355469,
+                        "pitch": -18.17346681650615,
+                        "roll": 0.2598642792827313
+                    },
+                    "subsurfaceTerrainUrl": "subsurface/Denver_DJ/cdll/",
+                    "rectangle": {
+                        "west": -105.27756,
+                        "south": 39.716487,
+                        "east": -103.67736,
+                        "north": 40.995687
+                    },
+                    "minimumTerrainHeight": -2900,
+                    "maximumTerrainHeight": 2697.4370117188,
+                    "terrainExaggeration": 5.0,
+                    "terrainExaggerationRelativeHeight": -600000,
+                    "geologicalPropertyShortNames": [
+                        "Structure",
+                        "6MoOilCum",
+                        "12MoOilCum",
+                        "EUR",
+                        "GOR",
+                        "Iso",
+                        "MBOE",
+                        "NETPAY",
+                        "OIP",
+                        "Porosity",
+                        "PG",
+                        "Sw",
+                        "Wc",
+                        "WOR"
+                    ]
+                },
+                {
+                    "name": "Fort Hays",
+                    "shortName": "FRHS",
+                    "pointCloudUrl": "",
+                    "rockTextureUrl": "SubsurfaceTextures:Denver_DJ_rock_texture_0.00028",
+                    "view": {
+                        "longitude": -104.55576189129292,
+                        "latitude": 38.462728709610346,
+                        "height": -631935.1139945985,
+                        "heading": 354.9771216355469,
+                        "pitch": -18.17346681650615,
+                        "roll": 0.25986427928268047
+                    },
+                    "subsurfaceTerrainUrl": "subsurface/Denver_DJ/frhs/",
+                    "rectangle": {
+                        "west": -105.277541,
+                        "south": 39.71767,
+                        "east": -103.680341,
+                        "north": 40.99507
+                    },
+                    "minimumTerrainHeight": -3000,
+                    "maximumTerrainHeight": 2400,
+                    "terrainExaggeration": 5.0,
+                    "terrainExaggerationRelativeHeight": -700000,
+                    "geologicalPropertyShortNames": ["Structure", "Iso", "Porosity", "ResDGT20", "Sw"]
+                },
+                {
+                    "name": "Carlisle",
+                    "shortName": "CRLL",
+                    "pointCloudUrl": "",
+                    "rockTextureUrl": "SubsurfaceTextures:Denver_DJ_rock_texture_0.00028",
+                    "view": {
+                        "longitude": -104.55576189129293,
+                        "latitude": 38.462728709610346,
+                        "height": -723862.0507147121,
+                        "heading": 354.9771216355469,
+                        "pitch": -18.173466816506085,
+                        "roll": 0.25986427928268047
+                    },
+                    "subsurfaceTerrainUrl": "subsurface/Denver_DJ/crll/",
+                    "rectangle": {
+                        "west": -105.277552,
+                        "south": 39.716739,
+                        "east": -103.679752,
+                        "north": 40.995339
+                    },
+                    "minimumTerrainHeight": -3200,
+                    "maximumTerrainHeight": 5400,
+                    "terrainExaggeration": 5.0,
+                    "terrainExaggerationRelativeHeight": -800000,
+                    "geologicalPropertyShortNames": ["Structure", "Iso"]
+                },
+                {
+                    "name": "Greenhorn",
+                    "shortName": "GRHN",
+                    "pointCloudUrl": "",
+                    "rockTextureUrl": "SubsurfaceTextures:Denver_DJ_rock_texture_0.00028",
+                    "view": {
+                        "longitude": -104.55576189129299,
+                        "latitude": 38.462728709610346,
+                        "height": -830781.3462475827,
+                        "heading": 354.9771216355469,
+                        "pitch": -18.1734668165061,
+                        "roll": 0.25986427928268047
+                    },
+                    "subsurfaceTerrainUrl": "subsurface/Denver_DJ/grnr/",
+                    "rectangle": {
+                        "west": -105.276502,
+                        "south": 39.718601,
+                        "east": -103.681102,
+                        "north": 40.994201
+                    },
+                    "minimumTerrainHeight": -3200,
+                    "maximumTerrainHeight": 2100,
+                    "terrainExaggeration": 5.0,
+                    "terrainExaggerationRelativeHeight": -900000,
+                    "geologicalPropertyShortNames": ["Structure", "Iso"]
+                },
+                {
+                    "name": "Graneros",
+                    "shortName": "GRNS",
+                    "pointCloudUrl": "",
+                    "rockTextureUrl": "SubsurfaceTextures:Denver_DJ_rock_texture_0.00028",
+                    "view": {
+                        "longitude": -104.55576189129305,
+                        "latitude": 38.462728709610346,
+                        "height": -931654.0719796073,
+                        "heading": 354.97712163554695,
+                        "pitch": -18.1734668165061,
+                        "roll": 0.25986427928262956
+                    },
+                    "subsurfaceTerrainUrl": "subsurface/Denver_DJ/grns/",
+                    "rectangle": {
+                        "west": -105.277549,
+                        "south": 39.717625,
+                        "east": -103.683949,
+                        "north": 40.995625
+                    },
+                    "minimumTerrainHeight": -3500,
+                    "maximumTerrainHeight": 3200,
+                    "terrainExaggeration": 5.0,
+                    "terrainExaggerationRelativeHeight": -1000000,
+                    "geologicalPropertyShortNames": ["Structure"]
+                }
+            ]
+        },
+        {
+            "longName": "Midland Basin",
+            "shortName": "Midland",
+            "abbreviation": "MiB",
+            "providerShortName": "TP",
+            "view": {
+                "longitude": -101.75371698545632,
+                "latitude": 29.994820000488755,
+                "height": 166932.93210251772,
+                "heading": 4.278549856596835,
+                "pitch": -45.12438961211344,
+                "roll": 0.0005824805362780567
+            },
+            "terrainExaggerationRelativeHeightSpacingMinimum": 10000,
+            "terrainExaggerationRelativeHeightSpacingMaximum": 200000,
+            "economicFormationParameters": {
+                "lateralLength": 10000.0,
+                "reserveMultiplier": 0.75,
+                "capEx": 7500.0,
+                "numAFEs": 1,
+                "numPermits": 0
+            },
+            "formations": [
+                {
+                    "name": "Upper Spraberry",
+                    "shortName": "USBY",
+                    "isEconomic": true,
+                    "economicName": "Spraberry",
+                    "economicShortName": "USBY",
+                    "pointCloudUrl": "",
+                    "rockTextureUrl": "SubsurfaceTextures:Midland_rock_texture_0.000458",
+                    "view": {
+                        "longitude": -101.91624491788698,
+                        "latitude": 30.315192622546412,
+                        "height": 539.9995703057979,
+                        "heading": 359.13937282194024,
+                        "pitch": -33.41542597707933,
+                        "roll": 0.18747369941394476
+                    },
+                    "subsurfaceTerrainUrl": "subsurface/Midland/usby/",
+                    "rectangle": {
+                        "west": -102.507035,
+                        "south": 31.054604,
+                        "east": -101.125235,
+                        "north": 32.956604
+                    },
+                    "minimumTerrainHeight": -5550,
+                    "maximumTerrainHeight": -1550,
+                    "terrainExaggeration": 5.0,
+                    "terrainExaggerationRelativeHeight": -100000,
+                    "geologicalPropertyShortNames": [
+                        "Structure",
+                        "12MoGasCum",
+                        "6MoGasCum",
+                        "12MoOilCum",
+                        "6MoOilCum",
+                        "EUR",
+                        "GOR",
+                        "Iso",
+                        "MBOE",
+                        "NETPAY",
+                        "OILCUT",
+                        "OIP",
+                        "Porosity",
+                        "Sw",
+                        "Wc",
+                        "WOR"
+                    ]
+                },
+                {
+                    "name": "Middle Spraberry",
+                    "shortName": "MSBY",
+                    "isEconomic": true,
+                    "pointCloudUrl": "",
+                    "rockTextureUrl": "SubsurfaceTextures:Midland_rock_texture_0.000458",
+                    "view": {
+                        "longitude": -101.95337107958797,
+                        "latitude": 30.33044602538349,
+                        "height": -100565.2823264276,
+                        "heading": 359.1442548460997,
+                        "pitch": -33.40104529261637,
+                        "roll": 0.18265236786024905
+                    },
+                    "subsurfaceTerrainUrl": "subsurface/Midland/msby/",
+                    "rectangle": {
+                        "west": -102.506526,
+                        "south": 31.054629,
+                        "east": -101.124126,
+                        "north": 32.956029
+                    },
+                    "minimumTerrainHeight": -6000,
+                    "maximumTerrainHeight": -1800,
+                    "terrainExaggeration": 5.0,
+                    "terrainExaggerationRelativeHeight": -200000,
+                    "geologicalPropertyShortNames": [
+                        "Structure",
+                        "12MoGasCum",
+                        "6MoGasCum",
+                        "12MoOilCum",
+                        "6MoOilCum",
+                        "EUR",
+                        "GOR",
+                        "Iso",
+                        "MBOE",
+                        "NETPAY",
+                        "OILCUT",
+                        "OIP",
+                        "Porosity",
+                        "Sw",
+                        "Wc",
+                        "WOR"
+                    ]
+                },
+                {
+                    "name": "Lower Spraberry",
+                    "shortName": "LSBY",
+                    "isEconomic": true,
+                    "pointCloudUrl": "",
+                    "rockTextureUrl": "SubsurfaceTextures:Midland_rock_texture_0.000458",
+                    "view": {
+                        "longitude": -101.96742246361224,
+                        "latitude": 30.316483342349265,
+                        "height": -200569.80530727474,
+                        "heading": 359.1442543916163,
+                        "pitch": -33.4010914362221,
+                        "roll": 0.18265319344802328
+                    },
+                    "subsurfaceTerrainUrl": "subsurface/Midland/lsby/",
+                    "rectangle": {
+                        "west": -102.506969,
+                        "south": 31.054457,
+                        "east": -101.124569,
+                        "north": 32.957657
+                    },
+                    "minimumTerrainHeight": -6400,
+                    "maximumTerrainHeight": -2400,
+                    "terrainExaggeration": 5.0,
+                    "terrainExaggerationRelativeHeight": -300000,
+                    "geologicalPropertyShortNames": [
+                        "Structure",
+                        "12MoGasCum",
+                        "6MoGasCum",
+                        "12MoOilCum",
+                        "6MoOilCum",
+                        "EUR",
+                        "GOR",
+                        "Iso",
+                        "MBOE",
+                        "NETPAY",
+                        "OILCUT",
+                        "OIP",
+                        "Porosity",
+                        "Ro",
+                        "Sw",
+                        "Wc",
+                        "WOR"
+                    ]
+                },
+                {
+                    "name": "Wolfcamp A",
+                    "shortName": "WCA",
+                    "isEconomic": true,
+                    "economicName": "Wolfcamp",
+                    "economicShortName": "WCA",
+                    "pointCloudUrl": "",
+                    "rockTextureUrl": "SubsurfaceTextures:Midland_rock_texture_0.000458",
+                    "view": {
+                        "longitude": -101.69699215113974,
+                        "latitude": 29.60285996406448,
+                        "height": -218276.3118401724,
+                        "heading": 356.83638576015767,
+                        "pitch": -39.846331450623566,
+                        "roll": 0.701519916597777
+                    },
+                    "subsurfaceTerrainUrl": "subsurface/Midland/wca/",
+                    "rectangle": {
+                        "west": -102.647115,
+                        "south": 30.912461,
+                        "east": -100.367115,
+                        "north": 33.095261
+                    },
+                    "minimumTerrainHeight": -7000,
+                    "maximumTerrainHeight": 0,
+                    "terrainExaggeration": 5.0,
+                    "terrainExaggerationRelativeHeight": -400000,
+                    "geologicalPropertyShortNames": [
+                        "Structure",
+                        "12MoGasCum",
+                        "6MoGasCum",
+                        "12MoOilCum",
+                        "6MoOilCum",
+                        "BRIT",
+                        "EUR",
+                        "GOR",
+                        "MBOE",
+                        "NETPAY",
+                        "OILCUT",
+                        "OIP",
+                        "PctCaCO3",
+                        "PctOrgSh",
+                        "PermSH",
+                        "PermSh100nd",
+                        "PHIE4",
+                        "Porosity",
+                        "Ro",
+                        "Sw",
+                        "TOC",
+                        "Vclay",
+                        "Wc",
+                        "WOR"
+                    ]
+                },
+                {
+                    "name": "Wolfcamp B",
+                    "shortName": "WCB",
+                    "isEconomic": true,
+                    "pointCloudUrl": "",
+                    "rockTextureUrl": "SubsurfaceTextures:Midland_rock_texture_0.000458",
+                    "view": {
+                        "longitude": -101.77519284083237,
+                        "latitude": 30.04803328845859,
+                        "height": -374476.93369688425,
+                        "heading": 358.91337300353314,
+                        "pitch": -33.7798699529438,
+                        "roll": 0.4088773189438222
+                    },
+                    "subsurfaceTerrainUrl": "subsurface/Midland/wcb/",
+                    "rectangle": {
+                        "west": -102.507485,
+                        "south": 31.053983,
+                        "east": -100.456685,
+                        "north": 32.970383
+                    },
+                    "minimumTerrainHeight": -7200,
+                    "maximumTerrainHeight": -800,
+                    "terrainExaggeration": 5.0,
+                    "terrainExaggerationRelativeHeight": -500000,
+                    "geologicalPropertyShortNames": [
+                        "Structure",
+                        "12MoGasCum",
+                        "6MoGasCum",
+                        "12MoOilCum",
+                        "6MoOilCum",
+                        "BRIT",
+                        "EUR",
+                        "GOR",
+                        "Iso",
+                        "MBOE",
+                        "NETPAY",
+                        "OILCUT",
+                        "OIP",
+                        "PctCaCO3",
+                        "PctOrgSh",
+                        "PermSH",
+                        "PermSh100nd",
+                        "PHIE4",
+                        "Porosity",
+                        "Sw",
+                        "TOC",
+                        "Vclay",
+                        "Wc",
+                        "WOR"
+                    ]
+                },
+                {
+                    "name": "Wolfcamp C",
+                    "shortName": "WCC",
+                    "isEconomic": true,
+                    "pointCloudUrl": "",
+                    "rockTextureUrl": "SubsurfaceTextures:Midland_rock_texture_0.000458",
+                    "view": {
+                        "longitude": -101.78018778483771,
+                        "latitude": 30.01343087869258,
+                        "height": -476544.18072920246,
+                        "heading": 358.94684163053154,
+                        "pitch": -33.842430989193545,
+                        "roll": 0.3772069730699648
+                    },
+                    "subsurfaceTerrainUrl": "subsurface/Midland/wcc/",
+                    "rectangle": {
+                        "west": -102.506368,
+                        "south": 31.054641,
+                        "east": -100.453768,
+                        "north": 32.970441
+                    },
+                    "minimumTerrainHeight": -7400,
+                    "maximumTerrainHeight": -1000,
+                    "terrainExaggeration": 5.0,
+                    "terrainExaggerationRelativeHeight": -600000,
+                    "geologicalPropertyShortNames": [
+                        "Structure",
+                        "12MoGasCum",
+                        "6MoGasCum",
+                        "12MoOilCum",
+                        "6MoOilCum",
+                        "EUR",
+                        "GOR",
+                        "Iso",
+                        "MBOE",
+                        "NETPAY",
+                        "OILCUT",
+                        "OIP",
+                        "Porosity",
+                        "Sw",
+                        "Wc",
+                        "WOR"
+                    ]
+                },
+                {
+                    "name": "Wolfcamp D",
+                    "shortName": "WCD",
+                    "isEconomic": true,
+                    "pointCloudUrl": "",
+                    "rockTextureUrl": "SubsurfaceTextures:Midland_rock_texture_0.000458",
+                    "view": {
+                        "longitude": -101.84574529302796,
+                        "latitude": 30.132301492130047,
+                        "height": -587185.8016691238,
+                        "heading": 359.10226266831825,
+                        "pitch": -33.62784057926702,
+                        "roll": 0.22508738700111453
+                    },
+                    "subsurfaceTerrainUrl": "subsurface/Midland/wcd/",
+                    "rectangle": {
+                        "west": -102.601053,
+                        "south": 31.064591,
+                        "east": -100.636653,
+                        "north": 32.981591
+                    },
+                    "minimumTerrainHeight": -8200,
+                    "maximumTerrainHeight": -3800,
+                    "terrainExaggeration": 5.0,
+                    "terrainExaggerationRelativeHeight": -700000,
+                    "geologicalPropertyShortNames": [
+                        "Structure",
+                        "BRIT",
+                        "Iso",
+                        "NETPAY",
+                        "OIP",
+                        "PermSh100nd",
+                        "PHIE4",
+                        "Porosity",
+                        "Sw",
+                        "TOC",
+                        "Vclay"
+                    ]
+                }
+            ]
+        },
+        {
+            "longName": "Gulf Coast North Basin",
+            "shortName": "Jurassic",
+            "abbreviation": "GCNB",
+            "providerShortName": "TP",
+            "view": {
+                "longitude": -95.07730845584638,
+                "latitude": 30.000890382073,
+                "height": 150354.36834859627,
+                "heading": 356.48349503769685,
+                "pitch": -35.51978038701574,
+                "roll": 0.0009051385206277497
+            },
+            "terrainExaggerationRelativeHeightSpacingMinimum": 10000,
+            "terrainExaggerationRelativeHeightSpacingMaximum": 200000,
+            "economicFormationParameters": {
+                "lateralLength": 10000.0,
+                "reserveMultiplier": 0.75,
+                "capEx": 7500.0,
+                "numAFEs": 1,
+                "numPermits": 0
+            },
+            "formations": [
+                {
+                    "name": "Cotton Valley Lime",
+                    "shortName": "CNVL",
+                    "isEconomic": true,
+                    "pointCloudUrl": "",
+                    "rockTextureUrl": "SubsurfaceTextures:Jurassic_rock_texture_0.000535",
+                    "view": {
+                        "longitude": -95.24758174829815,
+                        "latitude": 27.507088263550198,
+                        "height": -1053.039158203801,
+                        "heading": 359.50741518508164,
+                        "pitch": -19.533439339577384,
+                        "roll": 0.21306436710215623
+                    },
+                    "subsurfaceTerrainUrl": "subsurface/Jurassic/cnvl/",
+                    "rectangle": {
+                        "west": -96.551884,
+                        "south": 30.934766,
+                        "east": -92.084884,
+                        "north": 33.376166
+                    },
+                    "minimumTerrainHeight": -17600,
+                    "maximumTerrainHeight": -5400,
+                    "terrainExaggeration": 4.0,
+                    "terrainExaggerationRelativeHeight": -200000,
+                    "geologicalPropertyShortNames": [
+                        "Structure",
+                        "12MoGasCum",
+                        "6MoGasCum",
+                        "BCFE",
+                        "BVI",
+                        "DGEUR",
+                        "GIIP",
+                        "GROSS",
+                        "Iso",
+                        "MBOE",
+                        "NETPAY",
+                        "NGLEUR",
+                        "Perm",
+                        "PermH",
+                        "PHIH",
+                        "Porosity",
+                        "Sw",
+                        "Vclay",
+                        "WGR",
+                        "Yield"
+                    ]
+                },
+                {
+                    "name": "Upper Cotton Valley",
+                    "shortName": "UPR_CNVL",
+                    "pointCloudUrl": "",
+                    "rockTextureUrl": "SubsurfaceTextures:Jurassic_rock_texture_0.000535",
+                    "view": {
+                        "longitude": -94.9798500704003,
+                        "latitude": 27.786661451556885,
+                        "height": -132746.25381816117,
+                        "heading": 356.5917223925026,
+                        "pitch": -30.47804615887257,
+                        "roll": 0.10776464448424933
+                    },
+                    "subsurfaceTerrainUrl": "subsurface/Jurassic/upr_cnvl/",
+                    "rectangle": {
+                        "west": -96.551884,
+                        "south": 30.934766,
+                        "east": -92.084884,
+                        "north": 33.374366
+                    },
+                    "minimumTerrainHeight": -17700,
+                    "maximumTerrainHeight": -5600,
+                    "terrainExaggeration": 4.0,
+                    "terrainExaggerationRelativeHeight": -400000,
+                    "geologicalPropertyShortNames": [
+                        "Structure",
+                        "BVI",
+                        "GIIP",
+                        "GROSS",
+                        "Iso",
+                        "NETPAY",
+                        "NUPERM_A",
+                        "NUPERM_H",
+                        "Perm",
+                        "PermH",
+                        "PHIA",
+                        "PHIH",
+                        "Porosity",
+                        "Sw",
+                        "Vclay"
+                    ]
+                },
+                {
+                    "name": "Lower Cotton Valley",
+                    "shortName": "LWR_CNVL",
+                    "pointCloudUrl": "",
+                    "rockTextureUrl": "SubsurfaceTextures:Jurassic_rock_texture_0.000535",
+                    "view": {
+                        "longitude": -94.80718835108459,
+                        "latitude": 27.730692249338755,
+                        "height": -317298.4963628335,
+                        "heading": 355.261785671553,
+                        "pitch": -31.802674974592836,
+                        "roll": 0.4077227561518637
+                    },
+                    "subsurfaceTerrainUrl": "subsurface/Jurassic/lwr_cnvl/",
+                    "rectangle": {
+                        "west": -96.551884,
+                        "south": 30.934766,
+                        "east": -92.084884,
+                        "north": 33.376766
+                    },
+                    "minimumTerrainHeight": -19000,
+                    "maximumTerrainHeight": -6000,
+                    "terrainExaggeration": 4.0,
+                    "terrainExaggerationRelativeHeight": -600000,
+                    "geologicalPropertyShortNames": [
+                        "Structure",
+                        "BRITTLE",
+                        "BVI",
+                        "COMPETENCY",
+                        "GIIP",
+                        "GROSS",
+                        "Iso",
+                        "NETPAY",
+                        "NUPERM_A",
+                        "NUPERM_H",
+                        "Perm",
+                        "PermH",
+                        "PERMSH_A",
+                        "PERMSH_H",
+                        "PHIA",
+                        "PHIH",
+                        "Porosity",
+                        "TOC",
+                        "Vclay"
+                    ]
+                },
+                {
+                    "name": "Bossier Shale",
+                    "shortName": "BSSR_SHALE",
+                    "isEconomic": true,
+                    "pointCloudUrl": "",
+                    "rockTextureUrl": "SubsurfaceTextures:Jurassic_rock_texture_0.000535",
+                    "view": {
+                        "longitude": -94.8711930934018,
+                        "latitude": 27.874644482502102,
+                        "height": -532239.5913993511,
+                        "heading": 355.8071763214705,
+                        "pitch": -30.571093608195643,
+                        "roll": 0.08623684876966338
+                    },
+                    "subsurfaceTerrainUrl": "subsurface/Jurassic/bssr_shale/",
+                    "rectangle": {
+                        "west": -96.551884,
+                        "south": 30.934766,
+                        "east": -92.084884,
+                        "north": 33.375566
+                    },
+                    "minimumTerrainHeight": -20200,
+                    "maximumTerrainHeight": -6400,
+                    "terrainExaggeration": 4.0,
+                    "terrainExaggerationRelativeHeight": -800000,
+                    "geologicalPropertyShortNames": [
+                        "Structure",
+                        "12MoGasCum",
+                        "6MoGasCum",
+                        "BCFE",
+                        "BRITTLE",
+                        "BVI",
+                        "COMPETENCY",
+                        "DGEUR",
+                        "GIIP",
+                        "GROSS",
+                        "Iso",
+                        "MBOE",
+                        "NETPAY",
+                        "NGLEUR",
+                        "Perm",
+                        "PermH",
+                        "PERMSH_A",
+                        "PERMSH_H",
+                        "PHIA",
+                        "PHIH",
+                        "Porosity",
+                        "TOC",
+                        "Vclay",
+                        "WGR",
+                        "Sw",
+                        "Yield"
+                    ]
+                },
+                {
+                    "name": "Haynesville Shale",
+                    "shortName": "HSVL_SHALE",
+                    "isEconomic": true,
+                    "pointCloudUrl": "",
+                    "rockTextureUrl": "SubsurfaceTextures:Jurassic_rock_texture_0.000535",
+                    "view": {
+                        "longitude": -94.87687713219658,
+                        "latitude": 27.671414108845017,
+                        "height": -725090.808059069,
+                        "heading": 355.61602556770237,
+                        "pitch": -31.08521851851603,
+                        "roll": 0.5901298660490506
+                    },
+                    "subsurfaceTerrainUrl": "subsurface/Jurassic/hsvl_shale/",
+                    "rectangle": {
+                        "west": -96.551884,
+                        "south": 30.934766,
+                        "east": -92.084884,
+                        "north": 33.380366
+                    },
+                    "minimumTerrainHeight": -22400,
+                    "maximumTerrainHeight": -6400,
+                    "terrainExaggeration": 4.0,
+                    "terrainExaggerationRelativeHeight": -1000000,
+                    "geologicalPropertyShortNames": [
+                        "Structure",
+                        "12MoGasCum",
+                        "6MoGasCum",
+                        "BCFE",
+                        "BRITTLE",
+                        "BVI",
+                        "COMPETENCY",
+                        "DGEUR",
+                        "GIIP",
+                        "GROSS",
+                        "Iso",
+                        "MBOE",
+                        "NETPAY",
+                        "NGLEUR",
+                        "Perm",
+                        "PermH",
+                        "PERMSH_A",
+                        "PERMSH_H",
+                        "PHIA",
+                        "PHIH",
+                        "Porosity",
+                        "TOC",
+                        "Vclay",
+                        "WGR",
+                        "Sw",
+                        "Yield"
+                    ]
+                }
+            ]
+        },
+        {
+            "longName": "Delaware Basin",
+            "shortName": "Delaware",
+            "abbreviation": "DeB",
+            "providerShortName": "TP",
+            "view": {
+                "longitude": -104.36195737092186,
+                "latitude": 29.39463066318496,
+                "height": 340808.29323676985,
+                "heading": 0,
+                "pitch": -56.3540122831691,
+                "roll": 0
+            },
+            "terrainExaggerationRelativeHeightSpacingMinimum": 10000,
+            "terrainExaggerationRelativeHeightSpacingMaximum": 200000,
+            "economicFormationParameters": {
+                "lateralLength": 10000.0,
+                "reserveMultiplier": 0.75,
+                "capEx": 7500.0,
+                "numAFEs": 1,
+                "numPermits": 0
+            },
+            "formations": [
+                {
+                    "name": "First Bone Springs",
+                    "shortName": "FBSG",
+                    "isEconomic": true,
+                    "economicName": "Bone Springs",
+                    "economicShortName": "FBSG",
+                    "pointCloudUrl": "",
+                    "rockTextureUrl": "SubsurfaceTextures:Delaware_rock_texture_black",
+                    "view": {
+                        "longitude": -103.86527827596447,
+                        "latitude": 28.957683082702363,
+                        "height": -1873.1055712366651,
+                        "heading": 5.020066888511206,
+                        "pitch": -35.79780681980984,
+                        "roll": 0.45644007549765747
+                    },
+                    "subsurfaceTerrainUrl": "subsurface/Delaware/fbsg/",
+                    "rectangle": {
+                        "west": -104.761505219,
+                        "south": 30.4627254706,
+                        "east": -102.128866575,
+                        "north": 32.8155376118
+                    },
+                    "minimumTerrainHeight": -7385.2,
+                    "maximumTerrainHeight": -1817.33,
+                    "terrainExaggeration": 5.0,
+                    "terrainExaggerationRelativeHeight": -200000,
+                    "geologicalPropertyShortNames": [
+                        "Structure",
+                        "12MoGasCum",
+                        "6MoGasCum",
+                        "12MoOilCum",
+                        "6MoOilCum",
+                        "EUR",
+                        "GOR",
+                        "GROSS",
+                        "Iso",
+                        "MBOE",
+                        "NETPAY",
+                        "NET_BVI",
+                        "NET_HCVP",
+                        "NET_PERMSH_A",
+                        "NET_PERMSH_H",
+                        "NET_PHIA",
+                        "NET_PHIH",
+                        "NET_STOIIP",
+                        "NET_SW",
+                        "NET_TOC",
+                        "NET_VCLAY",
+                        "NET_WCUT",
+                        "NET",
+                        "OIP",
+                        "Porosity",
+                        "WOR"
+                    ]
+                },
+                {
+                    "name": "Second Bone Springs",
+                    "shortName": "SBSG",
+                    "isEconomic": true,
+                    "pointCloudUrl": "",
+                    "rockTextureUrl": "SubsurfaceTextures:Delaware_rock_texture_black",
+                    "view": {
+                        "longitude": -103.92813741586772,
+                        "latitude": 28.961191197776465,
+                        "height": -141518.55970940535,
+                        "heading": 5.375361433987575,
+                        "pitch": -36.60372501304268,
+                        "roll": 0.4677527758196636
+                    },
+                    "subsurfaceTerrainUrl": "subsurface/Delaware/sbsg/",
+                    "rectangle": {
+                        "west": -104.728003244,
+                        "south": 30.4792171445,
+                        "east": -102.161317969,
+                        "north": 32.8265320611
+                    },
+                    "minimumTerrainHeight": -7964.07,
+                    "maximumTerrainHeight": -2143.1,
+                    "terrainExaggeration": 5.0,
+                    "terrainExaggerationRelativeHeight": -350000,
+                    "geologicalPropertyShortNames": [
+                        "Structure",
+                        "12MoGasCum",
+                        "6MoGasCum",
+                        "12MoOilCum",
+                        "6MoOilCum",
+                        "EUR",
+                        "GOR",
+                        "GROSS",
+                        "Iso",
+                        "MBOE",
+                        "NETPAY",
+                        "NET_BVI",
+                        "NET_HCVP",
+                        "NET_PERMSH_A",
+                        "NET_PERMSH_H",
+                        "NET_PHIA",
+                        "NET_PHIH",
+                        "NET_STOIIP",
+                        "NET_SW",
+                        "NET_TOC",
+                        "NET_VCLAY",
+                        "NET_WCUT",
+                        "NET",
+                        "OIP",
+                        "Porosity",
+                        "WOR"
+                    ]
+                },
+                {
+                    "name": "Third Bone Springs",
+                    "shortName": "TBSG",
+                    "isEconomic": true,
+                    "pointCloudUrl": "",
+                    "rockTextureUrl": "SubsurfaceTextures:Delaware_rock_texture_black",
+                    "view": {
+                        "longitude": -104.00473867479151,
+                        "latitude": 28.737725791503745,
+                        "height": -326967.3008717573,
+                        "heading": 6.338032662490372,
+                        "pitch": -29.364733025902915,
+                        "roll": 0.6285996189514048
+                    },
+                    "subsurfaceTerrainUrl": "subsurface/Delaware/tbsg/",
+                    "rectangle": {
+                        "west": -104.760708954,
+                        "south": 30.4792171445,
+                        "east": -102.134628111,
+                        "north": 32.8210348364
+                    },
+                    "minimumTerrainHeight": -9017.57,
+                    "maximumTerrainHeight": -2491.65,
+                    "terrainExaggeration": 5.0,
+                    "terrainExaggerationRelativeHeight": -500000,
+                    "geologicalPropertyShortNames": [
+                        "Structure",
+                        "12MoGasCum",
+                        "6MoGasCum",
+                        "12MoOilCum",
+                        "6MoOilCum",
+                        "EUR",
+                        "GOR",
+                        "GROSS",
+                        "Iso",
+                        "MBOE",
+                        "NETPAY",
+                        "NET_BVI",
+                        "NET_HCVP",
+                        "NET_PERMSH_A",
+                        "NET_PERMSH_H",
+                        "NET_PHIA",
+                        "NET_PHIH",
+                        "NET_STOIIP",
+                        "NET_SW",
+                        "NET_TOC",
+                        "NET_VCLAY",
+                        "NET_WCUT",
+                        "NET",
+                        "OIP",
+                        "Porosity",
+                        "WOR"
+                    ]
+                },
+                {
+                    "name": "Wolfcamp A",
+                    "shortName": "WFMP_A_XY",
+                    "pointCloudUrl": "",
+                    "rockTextureUrl": "SubsurfaceTextures:Delaware_rock_texture_black",
+                    "view": {
+                        "longitude": -104.03559019111195,
+                        "latitude": 28.689245007990795,
+                        "height": -464943.9655486726,
+                        "heading": 6.4797135084709145,
+                        "pitch": -29.26526524727812,
+                        "roll": 0.48778537151055695
+                    },
+                    "subsurfaceTerrainUrl": "subsurface/Delaware/wfmp_a_xy/",
+                    "rectangle": {
+                        "west": -104.816477465,
+                        "south": 30.4352393475,
+                        "east": -102.128877681,
+                        "north": 33.1893488866
+                    },
+                    "minimumTerrainHeight": -9394.49,
+                    "maximumTerrainHeight": -2324.18,
+                    "terrainExaggeration": 5.0,
+                    "terrainExaggerationRelativeHeight": -650000,
+                    "geologicalPropertyShortNames": [
+                        "EUR",
+                        "GOR",
+                        "BASIN_GROSS",
+                        "BASIN_NET_BVI",
+                        "BASIN_NET_HCVP",
+                        "BASIN_NET_PERMSH_A",
+                        "BASIN_NET_PERMSH_H",
+                        "BASIN_NET_PHIA",
+                        "BASIN_NET_PHIH",
+                        "BASIN_NET_STOIIP",
+                        "BASIN_NET_SW",
+                        "BASIN_NET_TOC",
+                        "BASIN_NET_VCLAY",
+                        "BASIN_NET_WCUT",
+                        "BASIN_NET",
+                        "MBOE",
+                        "SHELF_GROSS",
+                        "SHELF_NET",
+                        "SHELF_NET_BVI",
+                        "SHELF_NET_HCVP",
+                        "SHELF_NET_PERMSH_A",
+                        "SHELF_NET_PERMSH_H",
+                        "SHELF_NET_PHIA",
+                        "SHELF_NET_PHIH",
+                        "SHELF_NET_STOIIP",
+                        "SHELF_NET_SW",
+                        "SHELF_NET_TOC",
+                        "SHELF_NET_VCLAY",
+                        "SHELF_NET_WCUT",
+                        "SHELF_STRUCTURE",
+                        "WOR"
+                    ]
+                },
+                {
+                    "name": "Wolfcamp A Shale",
+                    "shortName": "WFMP_A_SHALE",
+                    "isEconomic": true,
+                    "economicName": "Wolfcamp",
+                    "economicShortName": "WFMP_A_SHALE",
+                    "pointCloudUrl": "",
+                    "rockTextureUrl": "SubsurfaceTextures:Delaware_rock_texture_black",
+                    "view": {
+                        "longitude": -104.03205357290726,
+                        "latitude": 28.678270528831312,
+                        "height": -632382.5691559059,
+                        "heading": 6.761393403403972,
+                        "pitch": -28.069454726512188,
+                        "roll": 0.265106130481488
+                    },
+                    "subsurfaceTerrainUrl": "subsurface/Delaware/wfmp_a_shale/",
+                    "rectangle": {
+                        "west": -104.81098024,
+                        "south": 30.4341292413,
+                        "east": -102.12887657,
+                        "north": 32.8595154088
+                    },
+                    "minimumTerrainHeight": -9545.83,
+                    "maximumTerrainHeight": -2552.16,
+                    "terrainExaggeration": 5.0,
+                    "terrainExaggerationRelativeHeight": -800000,
+                    "geologicalPropertyShortNames": [
+                        "Structure",
+                        "12MoGasCum",
+                        "6MoGasCum",
+                        "12MoOilCum",
+                        "6MoOilCum",
+                        "EUR",
+                        "GOR",
+                        "GROSS",
+                        "Iso",
+                        "MBOE",
+                        "NETPAY",
+                        "NET_BVI",
+                        "NET_HCVP",
+                        "NET_PERMSH_A",
+                        "NET_PERMSH_H",
+                        "NET_PHIA",
+                        "NET_PHIH",
+                        "NET_STOIIP",
+                        "NET_SW",
+                        "NET_TOC",
+                        "NET_VCLAY",
+                        "NET_WCUT",
+                        "NET",
+                        "OIP",
+                        "Porosity",
+                        "WOR"
+                    ]
+                },
+                {
+                    "name": "Wolfcamp B",
+                    "shortName": "WFMP_B",
+                    "isEconomic": true,
+                    "pointCloudUrl": "",
+                    "rockTextureUrl": "SubsurfaceTextures:Delaware_rock_texture_black",
+                    "view": {
+                        "longitude": -104.0518609251172,
+                        "latitude": 28.678182490013008,
+                        "height": -784503.6134503142,
+                        "heading": 6.528606124333058,
+                        "pitch": -28.31417119782185,
+                        "roll": 0.49418760385854577
+                    },
+                    "subsurfaceTerrainUrl": "subsurface/Delaware/wfmp_b/",
+                    "rectangle": {
+                        "west": -104.81098024,
+                        "south": 30.4341292413,
+                        "east": -102.12887657,
+                        "north": 32.8595154088
+                    },
+                    "minimumTerrainHeight": -9843.42,
+                    "maximumTerrainHeight": -2559.75,
+                    "terrainExaggeration": 5.0,
+                    "terrainExaggerationRelativeHeight": -950000,
+                    "geologicalPropertyShortNames": [
+                        "Structure",
+                        "12MoGasCum",
+                        "6MoGasCum",
+                        "12MoOilCum",
+                        "6MoOilCum",
+                        "EUR",
+                        "GOR",
+                        "GROSS",
+                        "Iso",
+                        "MBOE",
+                        "NETPAY",
+                        "NET_BVI",
+                        "NET_HCVP",
+                        "NET_PERMSH_A",
+                        "NET_PERMSH_H",
+                        "NET_PHIA",
+                        "NET_PHIH",
+                        "NET_STOIIP",
+                        "NET_SW",
+                        "NET_TOC",
+                        "NET_VCLAY",
+                        "NET_WCUT",
+                        "NET",
+                        "OIP",
+                        "Porosity",
+                        "WOR"
+                    ]
+                },
+                {
+                    "name": "Wolfcamp C",
+                    "shortName": "WFMP_C",
+                    "isEconomic": true,
+                    "pointCloudUrl": "",
+                    "rockTextureUrl": "SubsurfaceTextures:Delaware_rock_texture_black",
+                    "view": {
+                        "longitude": -104.13471236839933,
+                        "latitude": 28.563360736414353,
+                        "height": -941461.7664912976,
+                        "heading": 7.140213796616703,
+                        "pitch": -25.63867315369069,
+                        "roll": 0.0009150259656715559
+                    },
+                    "subsurfaceTerrainUrl": "subsurface/Delaware/wfmp_c/",
+                    "rectangle": {
+                        "west": -104.81098024,
+                        "south": 30.4341292413,
+                        "east": -102.12887657,
+                        "north": 32.8595154088
+                    },
+                    "minimumTerrainHeight": -10985.3,
+                    "maximumTerrainHeight": -2559.89,
+                    "terrainExaggeration": 5.0,
+                    "terrainExaggerationRelativeHeight": -1100000,
+                    "geologicalPropertyShortNames": [
+                        "Structure",
+                        "12MoGasCum",
+                        "6MoGasCum",
+                        "12MoOilCum",
+                        "6MoOilCum",
+                        "EUR",
+                        "GOR",
+                        "GROSS",
+                        "Iso",
+                        "MBOE",
+                        "NETPAY",
+                        "NET_BVI",
+                        "NET_HCVP",
+                        "NET_PERMSH_A",
+                        "NET_PERMSH_H",
+                        "NET_PHIA",
+                        "NET_PHIH",
+                        "NET_STOIIP",
+                        "NET_SW",
+                        "NET_TOC",
+                        "NET_VCLAY",
+                        "NET_WCUT",
+                        "NET",
+                        "OIP",
+                        "Porosity",
+                        "WOR"
+                    ]
+                },
+                {
+                    "name": "Wolfcamp D",
+                    "shortName": "WFMP_D",
+                    "isEconomic": true,
+                    "pointCloudUrl": "",
+                    "rockTextureUrl": "SubsurfaceTextures:Delaware_rock_texture_black",
+                    "view": {
+                        "longitude": -104.16556789315793,
+                        "latitude": 28.86171603823156,
+                        "height": -1005372.2647258551,
+                        "heading": 7.113564381721381,
+                        "pitch": -41.79867600091244,
+                        "roll": 0.4230221743070319
+                    },
+                    "subsurfaceTerrainUrl": "subsurface/Delaware/wfmp_d/",
+                    "rectangle": {
+                        "west": -104.81098024,
+                        "south": 30.4341292413,
+                        "east": -102.12887657,
+                        "north": 32.8595154088
+                    },
+                    "minimumTerrainHeight": -14260.8,
+                    "maximumTerrainHeight": -2559.89,
+                    "terrainExaggeration": 5.0,
+                    "terrainExaggerationRelativeHeight": -1250000,
+                    "geologicalPropertyShortNames": [
+                        "Structure",
+                        "12MoGasCum",
+                        "6MoGasCum",
+                        "12MoOilCum",
+                        "6MoOilCum",
+                        "EUR",
+                        "GOR",
+                        "GROSS",
+                        "Iso",
+                        "MBOE",
+                        "NETPAY",
+                        "NET_BVI",
+                        "NET_HCVP",
+                        "NET_PERMSH_A",
+                        "NET_PERMSH_H",
+                        "NET_PHIA",
+                        "NET_PHIH",
+                        "NET_STOIIP",
+                        "NET_SW",
+                        "NET_TOC",
+                        "NET_VCLAY",
+                        "NET_WCUT",
+                        "NET",
+                        "OIP",
+                        "Porosity",
+                        "WOR"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "MIDCON",
+            "shortName": "",
+            "providerShortName": "TP",
+            "view": {
+                "height": null,
+                "latitude": null,
+                "longitude": null,
+                "pitch": null,
+                "roll": null,
+                "heading": null
+            },
+            "formations": [
+                {
+                    "name": "MERAMEC",
+                    "shortName": "MERAMEC",
+                    "pointCloudUrl": "",
+                    "view": {
+                        "height": null,
+                        "latitude": null,
+                        "longitude": null,
+                        "pitch": null,
+                        "roll": null,
+                        "heading": null
+                    },
+                    "subsurfaceTerrainUrl": "",
+                    "rectangle": {
+                        "west": null,
+                        "south": null,
+                        "east": null,
+                        "north": null
+                    },
+                    "minimumTerrainHeight": null,
+                    "maximumTerrainHeight": null
+                },
+                {
+                    "name": "OSAGE",
+                    "shortName": "OSAGE",
+                    "pointCloudUrl": "",
+                    "view": {
+                        "height": null,
+                        "latitude": null,
+                        "longitude": null,
+                        "pitch": null,
+                        "roll": null,
+                        "heading": null
+                    },
+                    "subsurfaceTerrainUrl": "",
+                    "rectangle": {
+                        "west": null,
+                        "south": null,
+                        "east": null,
+                        "north": null
+                    },
+                    "minimumTerrainHeight": null,
+                    "maximumTerrainHeight": null
+                },
+                {
+                    "name": "WOODFORD",
+                    "shortName": "WOODFORD",
+                    "pointCloudUrl": "",
+                    "view": {
+                        "height": null,
+                        "latitude": null,
+                        "longitude": null,
+                        "pitch": null,
+                        "roll": null,
+                        "heading": null
+                    },
+                    "subsurfaceTerrainUrl": "",
+                    "rectangle": {
+                        "west": null,
+                        "south": null,
+                        "east": null,
+                        "north": null
+                    },
+                    "minimumTerrainHeight": null,
+                    "maximumTerrainHeight": null
+                },
+                {
+                    "name": "WOODFORD_BASE",
+                    "shortName": "WOODFORD_BASE",
+                    "pointCloudUrl": "",
+                    "view": {
+                        "height": null,
+                        "latitude": null,
+                        "longitude": null,
+                        "pitch": null,
+                        "roll": null,
+                        "heading": null
+                    },
+                    "subsurfaceTerrainUrl": "",
+                    "rectangle": {
+                        "west": null,
+                        "south": null,
+                        "east": null,
+                        "north": null
+                    },
+                    "minimumTerrainHeight": null,
+                    "maximumTerrainHeight": null
+                }
+            ]
+        },
+        {
+            "name": "Powder River",
+            "shortName": "",
+            "providerShortName": "TP",
+            "view": {
+                "height": null,
+                "latitude": null,
+                "longitude": null,
+                "pitch": null,
+                "roll": null,
+                "heading": null
+            },
+            "formations": []
+        },
+        {
+            "longName": "Anadarko Basin",
+            "shortName": "Anadarko",
+            "abbreviation": "AB",
+            "providerShortName": "TP",
+            "view": {
+                "longitude": -99.55505738632851,
+                "latitude": 34.43654564691347,
+                "height": 138631.27746621246,
+                "heading": 0.00814787870321612,
+                "pitch": -43.540498810833384,
+                "roll": 0.0013218477528888128
+            },
+            "terrainExaggerationRelativeHeightSpacingMinimum": 10000,
+            "terrainExaggerationRelativeHeightSpacingMaximum": 200000,
+            "economicFormationParameters": {
+                "lateralLength": 10000.0,
+                "reserveMultiplier": 0.75,
+                "capEx": 7500.0,
+                "numAFEs": 1,
+                "numPermits": 0
+            },
+            "formations": [
+                {
+                    "name": "Meramec",
+                    "shortName": "MRMC",
+                    "isEconomic": true,
+                    "pointCloudUrl": "",
+                    "rockTextureUrl": "SubsurfaceTextures:Anadarko_rock_texture_0.000581",
+                    "view": {
+                        "longitude": -98.45091306194497,
+                        "latitude": 33.859912463886445,
+                        "height": -24132.668920866086,
+                        "heading": 354.5346416348827,
+                        "pitch": -25.901604072097754,
+                        "roll": 0.5913263137413285
+                    },
+                    "subsurfaceTerrainUrl": "subsurface/Anadarko/mrmc/",
+                    "rectangle": {
+                        "west": -99.386534,
+                        "south": 35.250131,
+                        "east": -97.617134,
+                        "north": 36.586331
+                    },
+                    "minimumTerrainHeight": -17000,
+                    "maximumTerrainHeight": -4600,
+                    "terrainExaggeration": 5.0,
+                    "terrainExaggerationRelativeHeight": -150000,
+                    "geologicalPropertyShortNames": [
+                        "Structure",
+                        "EUR",
+                        "GOR",
+                        "GROSS",
+                        "MBOE",
+                        "NET",
+                        "NET_BRITTLE",
+                        "NET_COMPETENCY",
+                        "NET_HCPV",
+                        "NET_NUPERM_A",
+                        "NET_NUPERM_H",
+                        "NET_PHIA",
+                        "NET_PHIH",
+                        "NET_Porosity",
+                        "NET_STOIIP",
+                        "NET_SW",
+                        "NET_VCLAY",
+                        "WOR"
+                    ]
+                },
+                {
+                    "name": "Osage",
+                    "shortName": "OSGE",
+                    "isEconomic": true,
+                    "pointCloudUrl": "",
+                    "rockTextureUrl": "SubsurfaceTextures:Anadarko_rock_texture_0.000581",
+                    "view": {
+                        "longitude": -98.44116738391813,
+                        "latitude": 33.837380709108665,
+                        "height": -162038.92323126845,
+                        "heading": 354.79402563093646,
+                        "pitch": -23.59323867816765,
+                        "roll": 0.19489270979252454
+                    },
+                    "subsurfaceTerrainUrl": "subsurface/Anadarko/osge/",
+                    "rectangle": {
+                        "west": -99.386534,
+                        "south": 35.250173,
+                        "east": -97.617134,
+                        "north": 36.585773
+                    },
+                    "minimumTerrainHeight": -17531,
+                    "maximumTerrainHeight": -4731,
+                    "terrainExaggeration": 5.0,
+                    "terrainExaggerationRelativeHeight": -280000,
+                    "geologicalPropertyShortNames": [
+                        "Structure",
+                        "EUR",
+                        "GOR",
+                        "GROSS",
+                        "MBOE",
+                        "NET",
+                        "NET_BRITTLE",
+                        "NET_COMPETENCY",
+                        "NET_HCPV",
+                        "NET_NUPERM_A",
+                        "NET_NUPERM_H",
+                        "NET_PHIA",
+                        "NET_PHIH",
+                        "NET_Porosity",
+                        "NET_STOIIP",
+                        "NET_SW",
+                        "NET_VCLAY",
+                        "WOR"
+                    ]
+                },
+                {
+                    "name": "Woodford",
+                    "shortName": "WDFD",
+                    "isEconomic": true,
+                    "pointCloudUrl": "",
+                    "rockTextureUrl": "SubsurfaceTextures:Anadarko_rock_texture_0.000581",
+                    "view": {
+                        "longitude": -98.40437494214405,
+                        "latitude": 33.56417757063903,
+                        "height": -276633.86535995826,
+                        "heading": 358.9062658128239,
+                        "pitch": -26.78997846124221,
+                        "roll": 0.44269062288534883
+                    },
+                    "subsurfaceTerrainUrl": "subsurface/Anadarko/wdfd/",
+                    "rectangle": {
+                        "west": -99.386532,
+                        "south": 34.271079,
+                        "east": -97.188732,
+                        "north": 36.585879
+                    },
+                    "minimumTerrainHeight": -20600,
+                    "maximumTerrainHeight": -600,
+                    "terrainExaggeration": 2.0,
+                    "terrainExaggerationRelativeHeight": -400000,
+                    "geologicalPropertyShortNames": [
+                        "Structure",
+                        "EUR",
+                        "GOR",
+                        "GROSS",
+                        "MBOE",
+                        "NET",
+                        "NET_BRITTLE",
+                        "NET_COMPETENCY",
+                        "NET_HCPV",
+                        "NET_PERMSH_A",
+                        "NET_PERMSH_H",
+                        "NET_PHIA",
+                        "NET_PHIH",
+                        "NET_Porosity",
+                        "NET_STOIIP",
+                        "NET_SW",
+                        "NET_TOC",
+                        "NET_VCLAY",
+                        "WOR"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Ardmore",
+            "shortName": "",
+            "providerShortName": "TP",
+            "view": {
+                "height": null,
+                "latitude": null,
+                "longitude": null,
+                "pitch": null,
+                "roll": null,
+                "heading": null
+            },
+            "formations": []
+        },
+        {
+            "name": "Arkoma",
+            "shortName": "",
+            "providerShortName": "TP",
+            "view": {
+                "height": null,
+                "latitude": null,
+                "longitude": null,
+                "pitch": null,
+                "roll": null,
+                "heading": null
+            },
+            "formations": []
+        },
+        {
+            "name": "Bighorn",
+            "shortName": "",
+            "providerShortName": "TP",
+            "view": {
+                "height": null,
+                "latitude": null,
+                "longitude": null,
+                "pitch": null,
+                "roll": null,
+                "heading": null
+            },
+            "formations": []
+        },
+        {
+            "name": "Black Warrior",
+            "shortName": "",
+            "providerShortName": "TP",
+            "view": {
+                "height": null,
+                "latitude": null,
+                "longitude": null,
+                "pitch": null,
+                "roll": null,
+                "heading": null
+            },
+            "formations": []
+        },
+        {
+            "name": "Bowdoin Dome",
+            "shortName": "",
+            "providerShortName": "TP",
+            "view": {
+                "height": null,
+                "latitude": null,
+                "longitude": null,
+                "pitch": null,
+                "roll": null,
+                "heading": null
+            },
+            "formations": []
+        },
+        {
+            "name": "Canada Sed Basin",
+            "shortName": "",
+            "providerShortName": "TP",
+            "view": {
+                "height": null,
+                "latitude": null,
+                "longitude": null,
+                "pitch": null,
+                "roll": null,
+                "heading": null
+            },
+            "formations": []
+        },
+        {
+            "name": "Cedar Creek Anticline",
+            "shortName": "",
+            "providerShortName": "TP",
+            "view": {
+                "height": null,
+                "latitude": null,
+                "longitude": null,
+                "pitch": null,
+                "roll": null,
+                "heading": null
+            },
+            "formations": []
+        },
+        {
+            "name": "Central Basin Platform",
+            "shortName": "",
+            "providerShortName": "TP",
+            "view": {
+                "height": null,
+                "latitude": null,
+                "longitude": null,
+                "pitch": null,
+                "roll": null,
+                "heading": null
+            },
+            "formations": []
+        },
+        {
+            "name": "Cherokee Platform",
+            "shortName": "",
+            "providerShortName": "TP",
+            "view": {
+                "height": null,
+                "latitude": null,
+                "longitude": null,
+                "pitch": null,
+                "roll": null,
+                "heading": null
+            },
+            "formations": []
+        },
+        {
+            "name": "Cook Inlet",
+            "shortName": "",
+            "providerShortName": "TP",
+            "view": {
+                "height": null,
+                "latitude": null,
+                "longitude": null,
+                "pitch": null,
+                "roll": null,
+                "heading": null
+            },
+            "formations": []
+        },
+        {
+            "longName": "Gulf Coast South Basin",
+            "shortName": "Eagle Ford",
+            "abbreviation": "EFB",
+            "providerShortName": "TP",
+            "view": {
+                "longitude": -98.96768654330563,
+                "latitude": 26.744654332533187,
+                "height": 306734.34099551523,
+                "heading": 0,
+                "pitch": -56.37105472129011,
+                "roll": 0
+            },
+            "terrainExaggerationRelativeHeightSpacingMinimum": 10000,
+            "terrainExaggerationRelativeHeightSpacingMaximum": 300000,
+            "economicFormationParameters": {
+                "lateralLength": 10000.0,
+                "reserveMultiplier": 0.75,
+                "capEx": 7500.0,
+                "numAFEs": 1,
+                "numPermits": 0
+            },
+            "formations": [
+                {
+                    "name": "Austin Chalk",
+                    "shortName": "ASTN",
+                    "isEconomic": true,
+                    "pointCloudUrl": "",
+                    "rockTextureUrl": "SubsurfaceTextures:Eagleford_rock_texture_black",
+                    "view": {
+                        "longitude": -97.92032899708502,
+                        "latitude": 24.815589065056514,
+                        "height": -29152.57416471936,
+                        "heading": 345.7681040335513,
+                        "pitch": -18.934455698885188,
+                        "roll": 0.4857846415016876
+                    },
+                    "subsurfaceTerrainUrl": "subsurface/Eagleford/astn/",
+                    "rectangle": {
+                        "west": -100.641802736,
+                        "south": 27.5779326451,
+                        "east": -96.0988137114,
+                        "north": 30.910924593
+                    },
+                    "minimumTerrainHeight": -14463.7,
+                    "maximumTerrainHeight": -285.715,
+                    "terrainExaggeration": 2.0,
+                    "terrainExaggerationRelativeHeight": -200000,
+                    "geologicalPropertyShortNames": [
+                        "Structure",
+                        "12MoGasCum",
+                        "6MoGasCum",
+                        "12MoOilCum",
+                        "6MoOilCum",
+                        "EUR",
+                        "GOR",
+                        "GROSS",
+                        "Iso",
+                        "MBOE",
+                        "NET",
+                        "NETPAY",
+                        "NET_BRITTLE",
+                        "NET_BVI",
+                        "NET_HCPV",
+                        "NET_PERMSH_A",
+                        "NET_PERMSH_H",
+                        "NET_PHIA",
+                        "NET_PHIH",
+                        "NET_STOIIP",
+                        "NET_SW",
+                        "NET_TOC",
+                        "NET_VCLAY",
+                        "OIP",
+                        "Porosity",
+                        "WOR"
+                    ]
+                },
+                {
+                    "name": "Upper Eagleford",
+                    "shortName": "UPR_EGFD",
+                    "isEconomic": true,
+                    "economicName": "Eagle Ford",
+                    "economicShortName": "UPR_EGFD",
+                    "pointCloudUrl": "",
+                    "rockTextureUrl": "SubsurfaceTextures:Eagleford_rock_texture_black",
+                    "view": {
+                        "longitude": -98.14958865685068,
+                        "latitude": 25.336359647309592,
+                        "height": -317048.21676234005,
+                        "heading": 343.017940733945,
+                        "pitch": -8.594351048367818,
+                        "roll": 0.3994482917009148
+                    },
+                    "subsurfaceTerrainUrl": "subsurface/Eagleford/upr_egfd/",
+                    "rectangle": {
+                        "west": -100.596756178,
+                        "south": 27.5834326318,
+                        "east": -97.144857851,
+                        "north": 29.6193595651
+                    },
+                    "minimumTerrainHeight": -14537,
+                    "maximumTerrainHeight": -854.403,
+                    "terrainExaggeration": 4.0,
+                    "terrainExaggerationRelativeHeight": -400000,
+                    "geologicalPropertyShortNames": [
+                        "Structure",
+                        "12MoGasCum",
+                        "6MoGasCum",
+                        "12MoOilCum",
+                        "6MoOilCum",
+                        "EUR",
+                        "GOR",
+                        "GROSS",
+                        "Iso",
+                        "MBOE",
+                        "NET",
+                        "NETPAY",
+                        "NET_BRITTLE",
+                        "NET_BVI",
+                        "NET_HCPV",
+                        "NET_PERMSH_A",
+                        "NET_PERMSH_H",
+                        "NET_PHIA",
+                        "NET_PHIH",
+                        "NET_STOIIP",
+                        "NET_SW",
+                        "NET_TOC",
+                        "NET_VCLAY",
+                        "OIP",
+                        "Porosity",
+                        "WOR"
+                    ]
+                },
+                {
+                    "name": "Lower Eagleford",
+                    "shortName": "LWR_EGFD",
+                    "isEconomic": true,
+                    "pointCloudUrl": "",
+                    "rockTextureUrl": "SubsurfaceTextures:Eagleford_rock_texture_black",
+                    "view": {
+                        "longitude": -97.65347135297144,
+                        "latitude": 24.585391180531293,
+                        "height": -463606.04326344305,
+                        "heading": 343.5398499892671,
+                        "pitch": -15.180855044938534,
+                        "roll": 0.005726109880475098
+                    },
+                    "subsurfaceTerrainUrl": "subsurface/Eagleford/lwr_egfd/",
+                    "rectangle": {
+                        "west": -100.641802736,
+                        "south": 27.5779326451,
+                        "east": -96.0988137114,
+                        "north": 30.910924593
+                    },
+                    "minimumTerrainHeight": -14607.5,
+                    "maximumTerrainHeight": -964.388,
+                    "terrainExaggeration": 4.0,
+                    "terrainExaggerationRelativeHeight": -600000,
+                    "geologicalPropertyShortNames": [
+                        "Structure",
+                        "12MoGasCum",
+                        "6MoGasCum",
+                        "12MoOilCum",
+                        "6MoOilCum",
+                        "EUR",
+                        "GOR",
+                        "GROSS",
+                        "Iso",
+                        "MBOE",
+                        "NET",
+                        "NETPAY",
+                        "NET_BRITTLE",
+                        "NET_BVI",
+                        "NET_HCPV",
+                        "NET_PERMSH_A",
+                        "NET_PERMSH_H",
+                        "NET_PHIA",
+                        "NET_PHIH",
+                        "NET_STOIIP",
+                        "NET_SW",
+                        "NET_TOC",
+                        "NET_VCLAY",
+                        "OIP",
+                        "Porosity",
+                        "WOR"
+                    ]
+                },
+                {
+                    "name": "Buda",
+                    "shortName": "BUDA",
+                    "isEconomic": true,
+                    "pointCloudUrl": "",
+                    "rockTextureUrl": "SubsurfaceTextures:Eagleford_rock_texture_black",
+                    "view": {
+                        "longitude": -97.63612052934153,
+                        "latitude": 24.496755009530627,
+                        "height": -644720.3871542736,
+                        "heading": 343.5705585265816,
+                        "pitch": -15.67789470727741,
+                        "roll": 0.053836779775267705
+                    },
+                    "subsurfaceTerrainUrl": "subsurface/Eagleford/buda/",
+                    "rectangle": {
+                        "west": -100.641802736,
+                        "south": 27.5779326451,
+                        "east": -96.0988137114,
+                        "north": 30.910924593
+                    },
+                    "minimumTerrainHeight": -14809.4,
+                    "maximumTerrainHeight": -1030.95,
+                    "terrainExaggeration": 4.0,
+                    "terrainExaggerationRelativeHeight": -800000,
+                    "geologicalPropertyShortNames": [
+                        "Structure",
+                        "12MoGasCum",
+                        "6MoGasCum",
+                        "12MoOilCum",
+                        "6MoOilCum",
+                        "EUR",
+                        "GOR",
+                        "GROSS",
+                        "Iso",
+                        "MBOE",
+                        "NET",
+                        "NETPAY",
+                        "NET_BRITTLE",
+                        "NET_BVI",
+                        "NET_HCPV",
+                        "NET_KA",
+                        "NET_KH",
+                        "NET_PHIA",
+                        "NET_PHIH",
+                        "NET_STOIIP",
+                        "NET_SW",
+                        "NET_VCLAY",
+                        "OIP",
+                        "Porosity",
+                        "WOR"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Eel River",
+            "shortName": "",
+            "providerShortName": "TP",
+            "view": {
+                "height": null,
+                "latitude": null,
+                "longitude": null,
+                "pitch": null,
+                "roll": null,
+                "heading": null
+            },
+            "formations": []
+        },
+        {
+            "name": "Forest City",
+            "shortName": "",
+            "providerShortName": "TP",
+            "view": {
+                "height": null,
+                "latitude": null,
+                "longitude": null,
+                "pitch": null,
+                "roll": null,
+                "heading": null
+            },
+            "formations": []
+        },
+        {
+            "name": "Fort Worth",
+            "shortName": "",
+            "providerShortName": "TP",
+            "view": {
+                "height": null,
+                "latitude": null,
+                "longitude": null,
+                "pitch": null,
+                "roll": null,
+                "heading": null
+            },
+            "formations": []
+        },
+        {
+            "name": "Greater Green River",
+            "shortName": "",
+            "providerShortName": "TP",
+            "view": {
+                "height": null,
+                "latitude": null,
+                "longitude": null,
+                "pitch": null,
+                "roll": null,
+                "heading": null
+            },
+            "formations": []
+        },
+        {
+            "name": "Gulf Coast N",
+            "shortName": "",
+            "providerShortName": "TP",
+            "view": {
+                "height": null,
+                "latitude": null,
+                "longitude": null,
+                "pitch": null,
+                "roll": null,
+                "heading": null
+            },
+            "formations": []
+        },
+        {
+            "name": "Gulf Coast S",
+            "shortName": "",
+            "providerShortName": "TP",
+            "view": {
+                "height": null,
+                "latitude": null,
+                "longitude": null,
+                "pitch": null,
+                "roll": null,
+                "heading": null
+            },
+            "formations": []
+        },
+        {
+            "name": "Hugoton",
+            "shortName": "",
+            "providerShortName": "TP",
+            "view": {
+                "height": null,
+                "latitude": null,
+                "longitude": null,
+                "pitch": null,
+                "roll": null,
+                "heading": null
+            },
+            "formations": []
+        },
+        {
+            "name": "Illinois",
+            "shortName": "",
+            "providerShortName": "TP",
+            "view": {
+                "height": null,
+                "latitude": null,
+                "longitude": null,
+                "pitch": null,
+                "roll": null,
+                "heading": null
+            },
+            "formations": []
+        },
+        {
+            "name": "KS Uplift",
+            "shortName": "",
+            "providerShortName": "TP",
+            "view": {
+                "height": null,
+                "latitude": null,
+                "longitude": null,
+                "pitch": null,
+                "roll": null,
+                "heading": null
+            },
+            "formations": []
+        },
+        {
+            "name": "Los Angeles",
+            "shortName": "",
+            "providerShortName": "TP",
+            "view": {
+                "height": null,
+                "latitude": null,
+                "longitude": null,
+                "pitch": null,
+                "roll": null,
+                "heading": null
+            },
+            "formations": []
+        },
+        {
+            "name": "Marcellus",
+            "shortName": "",
+            "providerShortName": "TP",
+            "view": {
+                "height": null,
+                "latitude": null,
+                "longitude": null,
+                "pitch": null,
+                "roll": null,
+                "heading": null
+            },
+            "formations": []
+        },
+        {
+            "name": "Marfa",
+            "shortName": "",
+            "providerShortName": "TP",
+            "view": {
+                "height": null,
+                "latitude": null,
+                "longitude": null,
+                "pitch": null,
+                "roll": null,
+                "heading": null
+            },
+            "formations": []
+        },
+        {
+            "name": "Marietta",
+            "shortName": "",
+            "providerShortName": "TP",
+            "view": {
+                "height": null,
+                "latitude": null,
+                "longitude": null,
+                "pitch": null,
+                "roll": null,
+                "heading": null
+            },
+            "formations": []
+        },
+        {
+            "name": "Michigan",
+            "shortName": "",
+            "providerShortName": "TP",
+            "view": {
+                "height": null,
+                "latitude": null,
+                "longitude": null,
+                "pitch": null,
+                "roll": null,
+                "heading": null
+            },
+            "formations": []
+        },
+        {
+            "name": "Montana Thrust Belt",
+            "shortName": "",
+            "providerShortName": "TP",
+            "view": {
+                "height": null,
+                "latitude": null,
+                "longitude": null,
+                "pitch": null,
+                "roll": null,
+                "heading": null
+            },
+            "formations": []
+        },
+        {
+            "name": "Nenana",
+            "shortName": "",
+            "providerShortName": "TP",
+            "view": {
+                "height": null,
+                "latitude": null,
+                "longitude": null,
+                "pitch": null,
+                "roll": null,
+                "heading": null
+            },
+            "formations": []
+        },
+        {
+            "name": "North Park",
+            "shortName": "",
+            "providerShortName": "TP",
+            "view": {
+                "height": null,
+                "latitude": null,
+                "longitude": null,
+                "pitch": null,
+                "roll": null,
+                "heading": null
+            },
+            "formations": []
+        },
+        {
+            "name": "North Slope",
+            "shortName": "",
+            "providerShortName": "TP",
+            "view": {
+                "height": null,
+                "latitude": null,
+                "longitude": null,
+                "pitch": null,
+                "roll": null,
+                "heading": null
+            },
+            "formations": []
+        },
+        {
+            "name": "Palo Duro",
+            "shortName": "",
+            "providerShortName": "TP",
+            "view": {
+                "height": null,
+                "latitude": null,
+                "longitude": null,
+                "pitch": null,
+                "roll": null,
+                "heading": null
+            },
+            "formations": []
+        },
+        {
+            "name": "Paradox",
+            "shortName": "",
+            "providerShortName": "TP",
+            "view": {
+                "height": null,
+                "latitude": null,
+                "longitude": null,
+                "pitch": null,
+                "roll": null,
+                "heading": null
+            },
+            "formations": []
+        },
+        {
+            "name": "Piceance Uinta",
+            "shortName": "",
+            "providerShortName": "TP",
+            "view": {
+                "height": null,
+                "latitude": null,
+                "longitude": null,
+                "pitch": null,
+                "roll": null,
+                "heading": null
+            },
+            "formations": []
+        },
+        {
+            "name": "Raton",
+            "shortName": "",
+            "providerShortName": "TP",
+            "view": {
+                "height": null,
+                "latitude": null,
+                "longitude": null,
+                "pitch": null,
+                "roll": null,
+                "heading": null
+            },
+            "formations": []
+        },
+        {
+            "name": "Sacramento",
+            "shortName": "",
+            "providerShortName": "TP",
+            "view": {
+                "height": null,
+                "latitude": null,
+                "longitude": null,
+                "pitch": null,
+                "roll": null,
+                "heading": null
+            },
+            "formations": []
+        },
+        {
+            "name": "San Joaquin",
+            "shortName": "",
+            "providerShortName": "TP",
+            "view": {
+                "height": null,
+                "latitude": null,
+                "longitude": null,
+                "pitch": null,
+                "roll": null,
+                "heading": null
+            },
+            "formations": []
+        },
+        {
+            "name": "San Juan",
+            "shortName": "",
+            "providerShortName": "TP",
+            "view": {
+                "height": null,
+                "latitude": null,
+                "longitude": null,
+                "pitch": null,
+                "roll": null,
+                "heading": null
+            },
+            "formations": []
+        },
+        {
+            "name": "Santa Maria",
+            "shortName": "",
+            "providerShortName": "TP",
+            "view": {
+                "height": null,
+                "latitude": null,
+                "longitude": null,
+                "pitch": null,
+                "roll": null,
+                "heading": null
+            },
+            "formations": []
+        },
+        {
+            "name": "Sedgwick",
+            "shortName": "",
+            "providerShortName": "TP",
+            "view": {
+                "height": null,
+                "latitude": null,
+                "longitude": null,
+                "pitch": null,
+                "roll": null,
+                "heading": null
+            },
+            "formations": []
+        },
+        {
+            "name": "Southern Platform",
+            "shortName": "",
+            "providerShortName": "TP",
+            "view": {
+                "height": null,
+                "latitude": null,
+                "longitude": null,
+                "pitch": null,
+                "roll": null,
+                "heading": null
+            },
+            "formations": []
+        },
+        {
+            "name": "Valley And Ridge",
+            "shortName": "",
+            "providerShortName": "TP",
+            "view": {
+                "height": null,
+                "latitude": null,
+                "longitude": null,
+                "pitch": null,
+                "roll": null,
+                "heading": null
+            },
+            "formations": []
+        },
+        {
+            "name": "Ventura",
+            "shortName": "",
+            "providerShortName": "TP",
+            "view": {
+                "height": null,
+                "latitude": null,
+                "longitude": null,
+                "pitch": null,
+                "roll": null,
+                "heading": null
+            },
+            "formations": []
+        },
+        {
+            "name": "Yukon",
+            "shortName": "",
+            "providerShortName": "TP",
+            "view": {
+                "height": null,
+                "latitude": null,
+                "longitude": null,
+                "pitch": null,
+                "roll": null,
+                "heading": null
+            },
+            "formations": []
+        }
+    ]
+}
+
