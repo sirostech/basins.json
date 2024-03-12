@@ -1,5 +1,5 @@
 {
-    "preloadAllBasins": true,
+    "preloadAllBasins": false,
     "basins": [
         {
             "longName": "Williston Basin",
@@ -582,6 +582,47 @@
             },
             "formations": [
                 {
+                    "name": "Niobrara",
+                    "shortName": "NBRR",
+                    "isEconomic": true,
+                    "pointCloudUrl": "",
+                    "rockTextureUrl": "SubsurfaceTextures:IRAD-PRB",
+                    "view": {
+                        "longitude": -105.79553778464448,
+                        "latitude": 41.4134015135654,
+                        "height": -353081.75274898246,
+                        "heading": 359.91747698708747,
+                        "pitch": -5.087864796297032,
+                        "roll": 0.5388827812936635
+                    },
+                    "subsurfaceTerrainUrl": "subsurface/IRAD-Powder-River/nbrr/",
+                    "rectangle": {
+                        "west": -106.98995389,
+                        "south": 42.7724591663,
+                        "east": -104.68955389,
+                        "north": 45.0224591663
+                    },
+                    "minimumTerrainHeight": -7494.9262695313,
+                    "maximumTerrainHeight": 5591.4243164063,
+                    "terrainExaggeration": 8.0,
+                    "terrainExaggerationRelativeHeight": -400000,
+                    "geologicalPropertyShortNames": [
+                        "Structure",
+                        "BRITTLE",
+                        "COMPETENCY",
+                        "HCPV",
+                        "NETSHALE",
+                        "PERMSH_A",
+                        "PERMSH_H",
+                        "PHIA",
+                        "PHIH",
+                        "STOIIP_SEC",
+                        "Sw",
+                        "TOC",
+                        "Vclay"
+                    ]
+                },
+                {
                     "name": "Carlile",
                     "shortName": "CRLL",
                     "pointCloudUrl": "",
@@ -673,48 +714,8 @@
                     "terrainExaggeration": 8.0,
                     "terrainExaggerationRelativeHeight": -300000,
                     "geologicalPropertyShortNames": ["Structure"]
-                },
-                {
-                    "name": "Niobrara",
-                    "shortName": "NBRR",
-                    "isEconomic": true,
-                    "pointCloudUrl": "",
-                    "rockTextureUrl": "SubsurfaceTextures:IRAD-PRB",
-                    "view": {
-                        "longitude": -105.79553778464448,
-                        "latitude": 41.4134015135654,
-                        "height": -353081.75274898246,
-                        "heading": 359.91747698708747,
-                        "pitch": -5.087864796297032,
-                        "roll": 0.5388827812936635
-                    },
-                    "subsurfaceTerrainUrl": "subsurface/IRAD-Powder-River/nbrr/",
-                    "rectangle": {
-                        "west": -106.98995389,
-                        "south": 42.7724591663,
-                        "east": -104.68955389,
-                        "north": 45.0224591663
-                    },
-                    "minimumTerrainHeight": -7494.9262695313,
-                    "maximumTerrainHeight": 5591.4243164063,
-                    "terrainExaggeration": 8.0,
-                    "terrainExaggerationRelativeHeight": -400000,
-                    "geologicalPropertyShortNames": [
-                        "Structure",
-                        "BRITTLE",
-                        "COMPETENCY",
-                        "HCPV",
-                        "NETSHALE",
-                        "PERMSH_A",
-                        "PERMSH_H",
-                        "PHIA",
-                        "PHIH",
-                        "STOIIP_SEC",
-                        "Sw",
-                        "TOC",
-                        "Vclay"
-                    ]
                 }
+                
             ]
         },
         {
@@ -901,6 +902,32 @@
                     "geologicalPropertyShortNames": ["Structure", "Iso", "Porosity", "Sw"]
                 },
                 {
+                    "name": "Fort Hays",
+                    "shortName": "FRHS",
+                    "pointCloudUrl": "",
+                    "rockTextureUrl": "SubsurfaceTextures:Denver_DJ_rock_texture_0.00028",
+                    "view": {
+                        "longitude": -104.55576189129292,
+                        "latitude": 38.462728709610346,
+                        "height": -631935.1139945985,
+                        "heading": 354.9771216355469,
+                        "pitch": -18.17346681650615,
+                        "roll": 0.25986427928268047
+                    },
+                    "subsurfaceTerrainUrl": "subsurface/Denver_DJ/frhs/",
+                    "rectangle": {
+                        "west": -105.277541,
+                        "south": 39.71767,
+                        "east": -103.680341,
+                        "north": 40.99507
+                    },
+                    "minimumTerrainHeight": -3000,
+                    "maximumTerrainHeight": 2400,
+                    "terrainExaggeration": 5.0,
+                    "terrainExaggerationRelativeHeight": -700000,
+                    "geologicalPropertyShortNames": ["Structure", "Iso", "Porosity", "ResDGT20", "Sw"]
+                },
+                {
                     "name": "Codell",
                     "shortName": "CDLL",
                     "isEconomic": true,
@@ -941,32 +968,6 @@
                         "Wc",
                         "WOR"
                     ]
-                },
-                {
-                    "name": "Fort Hays",
-                    "shortName": "FRHS",
-                    "pointCloudUrl": "",
-                    "rockTextureUrl": "SubsurfaceTextures:Denver_DJ_rock_texture_0.00028",
-                    "view": {
-                        "longitude": -104.55576189129292,
-                        "latitude": 38.462728709610346,
-                        "height": -631935.1139945985,
-                        "heading": 354.9771216355469,
-                        "pitch": -18.17346681650615,
-                        "roll": 0.25986427928268047
-                    },
-                    "subsurfaceTerrainUrl": "subsurface/Denver_DJ/frhs/",
-                    "rectangle": {
-                        "west": -105.277541,
-                        "south": 39.71767,
-                        "east": -103.680341,
-                        "north": 40.99507
-                    },
-                    "minimumTerrainHeight": -3000,
-                    "maximumTerrainHeight": 2400,
-                    "terrainExaggeration": 5.0,
-                    "terrainExaggerationRelativeHeight": -700000,
-                    "geologicalPropertyShortNames": ["Structure", "Iso", "Porosity", "ResDGT20", "Sw"]
                 },
                 {
                     "name": "Carlisle",
