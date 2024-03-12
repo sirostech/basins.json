@@ -909,7 +909,7 @@
                     "view": {
                         "longitude": -104.55576189129292,
                         "latitude": 38.462728709610346,
-                        "height": -631935.1139945985,
+                        "height": -523862.05071471113,
                         "heading": 354.9771216355469,
                         "pitch": -18.17346681650615,
                         "roll": 0.25986427928268047
@@ -924,7 +924,7 @@
                     "minimumTerrainHeight": -3000,
                     "maximumTerrainHeight": 2400,
                     "terrainExaggeration": 5.0,
-                    "terrainExaggerationRelativeHeight": -700000,
+                    "terrainExaggerationRelativeHeight": -600000,
                     "geologicalPropertyShortNames": ["Structure", "Iso", "Porosity", "ResDGT20", "Sw"]
                 },
                 {
@@ -936,7 +936,7 @@
                     "view": {
                         "longitude": -104.55576189129289,
                         "latitude": 38.462728709610346,
-                        "height": -523862.05071471113,
+                        "height": -631935.1139945985,
                         "heading": 354.9771216355469,
                         "pitch": -18.17346681650615,
                         "roll": 0.2598642792827313
@@ -951,7 +951,7 @@
                     "minimumTerrainHeight": -2900,
                     "maximumTerrainHeight": 2697.4370117188,
                     "terrainExaggeration": 5.0,
-                    "terrainExaggerationRelativeHeight": -600000,
+                    "terrainExaggerationRelativeHeight": -700000,
                     "geologicalPropertyShortNames": [
                         "Structure",
                         "6MoOilCum",
